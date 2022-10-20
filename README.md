@@ -6,12 +6,13 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 
 ## Cómo funciona
 Debajo vas a tener una serie de ejercicios del estilo:
-- [Sumar dos numeros primos](https://www.esto-es-un.ejemplo)
+- [Ejercicio X](https://www.esto-es-un.ejemplo): Sumar dos numeros primos
 
 Entonces la idea es que intentes resolverlo sin abrir el link, el cual te llevará a la solución.
 
 ## Ejercicios
 ### Nivel Principiante
-- [Recibir un input almacenado en dos variables enteras que se pueden sumar, restar, multiplicar y dividir.](level_beginner/calculadora.py)
-- [Definir una función max_num() que tome como argumento dos números y devuelva el mayor de ellos.](level_beginner/max_number.py)
-- [Definir una función max_num_three(), que tome tres números como argumentos y devuelva el mayor de ellos.](level_beginner/max_number_three.py)
+- [Ejercicio 1](level_beginner/calculadora.py): Recibir un input almacenado en dos variables enteras que se pueden sumar, restar, multiplicar y dividir.
+- [Ejercicio 2](level_beginner/max_number.py): Definir una función max_num() que tome como argumento dos números y devuelva el mayor de ellos.
+- [Ejercicio 3](level_beginner/max_number_three.py): Definir una función max_num_three(), que tome tres números como argumentos y devuelva el mayor de ellos.
+- [Ejercicio 4](level_beginner/calc_list.py): Definir una función que calcule la longitud de una lista o una cadena dada.
