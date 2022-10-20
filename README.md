@@ -12,4 +12,6 @@ Entonces la idea es que intentes resolverlo sin abrir el link, el cual te llevar
 
 ## Ejercicios
 ### Nivel Principiante
-- [Calculadora](calculadora.py): Recibir un input almacenado en dos variables enteras que se pueden sumar, restar, multiplicar y dividir.
+- [Recibir un input almacenado en dos variables enteras que se pueden sumar, restar, multiplicar y dividir.](level_beginner/calculadora.py)
+- [Definir una función max_num() que tome como argumento dos números y devuelva el mayor de ellos.](level_beginner/max_number.py)
+- [Definir una función max_num_three(), que tome tres números como argumentos y devuelva el mayor de ellos.](level_beginner/max_number_three.py)
