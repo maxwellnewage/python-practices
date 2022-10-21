@@ -16,3 +16,6 @@ Entonces la idea es que intentes resolverlo sin abrir el link, el cual te llevar
 - [Ejercicio 2](level_beginner/max_number.py): Definir una función max_num() que tome como argumento dos números y devuelva el mayor de ellos.
 - [Ejercicio 3](level_beginner/max_number_three.py): Definir una función max_num_three(), que tome tres números como argumentos y devuelva el mayor de ellos.
 - [Ejercicio 4](level_beginner/calc_list.py): Definir una función que calcule la longitud de una lista o una cadena dada.
+
+## Proyectos
+- [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura. 
