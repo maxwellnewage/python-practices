@@ -16,6 +16,18 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - Definir una función superposicion() que tome dos listas y devuelva True si tienen al menos 1 miembro en común o devuelva False de lo contrario. Escribir la función usando el bucle for anidado. [[Solución](level_beginner/superposicion.py)]
 - Definir una función generar_n_caracteres() que tome un entero n y devuelva el caracter multiplicado por n. [[Solución](level_beginner/multi_int.py)]
 - Definir un histograma procedimiento() que tome una lista de números enteros e imprima un histograma en la pantalla. [[Solución](level_beginner/histograma.py)]
+- Escribir una función max_in_list() que tome una lista de números y devuelva el mas grande.
+- Escribir una función mas_larga() que tome una lista de palabras y devuelva la mas larga.
+- Escribir una función filtrar_palabras() que tome una lista de palabras y un entero n, y devuelva las palabras que tengan mas de n caracteres.
+- Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
+- Construir un pequeño programa que convierta números binarios en enteros.
+- Definir una tupla con 10 edades de personas. Imprimir la cantidad de personas con edades superiores a 20.
+- Definir una lista con un conjunto de nombres, imprimir la cantidad de comienzan con una letra seleccionada por el usuario.
+- Crear una función contar_vocales()
+- Escriba una función es_bisiesto() que determine si un año determinado es un año bisiesto. Un año bisiesto es divisible por 4, pero no por 100; también por 400.
+- Escribe un programa que pida dos palabras y diga si riman o no. Si coinciden las tres últimas letras tiene que decir que riman. Si coinciden sólo las dos últimas tiene que decir que riman un poco y si no, que no riman.
+- 
 
 ## Proyectos
-- [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura. 
+- [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura.
+- [Plazo Fijo](projects): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto. [WIP]
