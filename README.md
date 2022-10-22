@@ -47,13 +47,13 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 
 
 - Escribir una función max_in_list() que tome una lista de números y devuelva el mas grande.
-[[Solución](wip.py)]
+[[Solución](level_beginner/max_in_list.py)]
 
 - Escribir una función mas_larga() que tome una lista de palabras y devuelva la mas larga.
-[[Solución](wip.py)]
+[[Solución](level_beginner/mas_larga.py)]
 
 - Escribir una función filtrar_palabras() que tome una lista de palabras y un entero n, y devuelva las palabras que tengan mas de n caracteres.
-[[Solución](wip.py)]
+[[Solución](level_beginner/filtrar_palabras.py)]
 
 - Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
 [[Solución](wip.py)]
