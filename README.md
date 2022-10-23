@@ -45,25 +45,25 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [filtrar_palabras.py](level_beginner/filtrar_palabras.py): Escribir una función filtrar_palabras() que tome una lista de palabras y un entero n, y devuelva las palabras que tengan mas de n caracteres.
 
 
-- [wip.py](wip.py): Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
+- [tupla_string_uppercase.py](level_beginner/tupla_string_uppercase.py): Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
 
 
-- [wip.py](wip.py): Construir un pequeño programa que convierta números binarios en enteros.
+- [binary_to_integer.py](level_beginner/binary_to_integer.py): Construir un pequeño programa que convierta números binarios en enteros.
 
 
-- [wip.py](wip.py): Definir una tupla con 10 edades de personas. Imprimir la cantidad de personas con edades superiores a 20.
+- [tupla_age_sup.py](level_beginner/tupla_age_sup.py): Definir una tupla con 10 edades de personas. Imprimir la cantidad de personas con edades superiores a 20.
 
 
-- [wip.py](wip.py): Definir una lista con un conjunto de nombres, imprimir la cantidad que comienzan con una letra seleccionada por el usuario.
+- [filter_name_list.py](level_beginner/filter_name_list.py): Definir una lista con un conjunto de nombres, imprimir la cantidad que comienzan con una letra seleccionada por el usuario.
 
 
-- [wip.py](wip.py): Crear una función contar_vocales()
+- [count_vowels.py](level_beginner/count_vowels.py): Crear una función contar_vocales()
 
 
-- [wip.py](wip.py): Escriba una función es_bisiesto() que determine si un año determinado es un año bisiesto. Un año bisiesto es divisible por 4, pero no por 100; también por 400.
+- [es_bisiesto.py](level_beginner/es_bisiesto.py): Escriba una función es_bisiesto() que determine si un año determinado es un año bisiesto. Un año bisiesto es divisible por 4, pero no por 100; también por 400.
 
 
-- [wip.py](wip.py): Escribe un programa que pida dos palabras y diga si riman o no. Si coinciden las tres últimas letras tiene que decir que riman. Si coinciden sólo las dos últimas tiene que decir que riman un poco y si no, que no riman.
+- [rima.py](level_beginner/rima.py): Escribe un programa que pida dos palabras y diga si riman o no. Si coinciden las tres últimas letras tiene que decir que riman. Si coinciden sólo las dos últimas tiene que decir que riman un poco y si no, que no riman.
 
 
 ## Proyectos
