@@ -13,7 +13,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
   - Arreglos y Tuplas
   - Operaciones con Cadenas (Strings)
   - Funciones lambda
-- [Nivel Intermedio](wip.py): Ejercicios que integran los principios aplicados de la programación orientada a objetos.
+- [Nivel Intermedio](level_intermediate/README.md): Ejercicios que integran los principios aplicados de la programación orientada a objetos.
 
 ## Proyectos
 - [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura.
