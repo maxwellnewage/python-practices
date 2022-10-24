@@ -59,7 +59,7 @@
 - [rima.py](rima.py): Escribe un programa que pida dos palabras y diga si riman o no. Si coinciden las tres últimas letras tiene que decir que riman. Si coinciden sólo las dos últimas tiene que decir que riman un poco y si no, que no riman.
 
 
-- [wip.py](wip.py): Identificar si la suma de los dígitos de un número es par o impar.
+- [par_impar.py](par_impar.py): Identificar si la suma de los dígitos de un número es par o impar.
 
 
-- [wip.py](wip.py): Para un número N imprimir su tabla de multiplicar.
+- [multi_table.py](multi_table.py): Para un número N imprimir su tabla de multiplicar.
