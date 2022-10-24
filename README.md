@@ -68,4 +68,4 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 
 ## Proyectos
 - [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura.
-- [Plazo Fijo](wip.py): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto. [WIP]
+- [Plazo Fijo](projects/plazo_fijo.py): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto.
