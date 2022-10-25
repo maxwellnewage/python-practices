@@ -3,3 +3,6 @@
 
 
 - [employee_generator.py](employee_generator.py): Crear un programa que genere empleados con nombre, apellido, rol y salario, previamente con una clase Person como padre.
+
+
+- [smartphone.py](smartphone.py): Crear un teléfono inteligente que posea distintas características aplicadas con herencia múltiple.

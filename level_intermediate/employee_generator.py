@@ -1,5 +1,6 @@
 """
-Crear un programa que genere empleados
+Crear un programa que genere empleados con nombre, apellido, rol y salario,
+previamente con una clase Person como padre.
 """
 
 
