@@ -12,3 +12,6 @@
 
 
 - [calculadora_static.py](calculadora_static.py): Crear la calculadora del primer ejemplo, pero con métodos estáticos.
+
+
+- [calculadora_polimorfismo.py](calculadora_polimorfismo.py): Armar una calculadora que sobreescriba los métodos de la primera.
