@@ -6,3 +6,6 @@
 
 
 - [smartphone.py](smartphone.py): Crear un teléfono inteligente que posea distintas características aplicadas con herencia múltiple.
+
+
+- [person_descriptor.py](person_descriptor.py): Crear una clase persona que se pueda describir con __str__.
