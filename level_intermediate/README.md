@@ -9,3 +9,6 @@
 
 
 - [person_descriptor.py](person_descriptor.py): Crear una clase persona que se pueda describir con __str__.
+
+
+- [calculadora_static.py](calculadora_static.py): Crear la calculadora del primer ejemplo, pero con métodos estáticos.
