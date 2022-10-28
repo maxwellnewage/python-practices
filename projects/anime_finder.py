@@ -24,7 +24,7 @@ print("Buscando...")
 print("--------------------------------------------")
 
 anime_list: list = search_anime_by_term(input_term)['data']
-if len(anime_list) == 0:
+if not anime_list:
     print("No se encontraron resultados :(")
 else:
     for anime in anime_list:
