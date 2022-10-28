@@ -5,7 +5,6 @@ Crear una calculadora que sume, reste, multiplique y divida
 
 class Calculadora:
     def __init__(self, n1, n2):
-        # el doble guion bajo indica que el atributo es privado
         self.n1 = n1
         self.n2 = n2
 
