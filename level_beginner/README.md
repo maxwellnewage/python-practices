@@ -63,3 +63,6 @@
 
 
 - [multi_table.py](multi_table.py): Para un número N imprimir su tabla de multiplicar.
+
+
+- [file_open.py](file_open.py): Crear un archivo y escribir algo dentro seguido de salto de línea. Luego leer la información acumulada.
