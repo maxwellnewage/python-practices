@@ -34,12 +34,12 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura.
 - [Plazo Fijo](projects/plazo_fijo.py): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto.
 - [Anime Finder](projects/anime_finder.py): Buscador de anime que se conecta con la API Jikan.
+- [Dice Rolling Simulator](projects/dice_rolling_simulator.py): Simulador de tirada de dados.
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [Snake Game](wip.py): Juego de la serpiente.
 - [Number Guessing](wip.py): Adivina el número que estoy pensando.
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
-- [Dice Rolling Simulator](wip.py): Simulador de tirada de dados.
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
 - [Rock, Paper, Scissors](wip.py): El famoso juego "Piedra, Papel o Tijeras".
