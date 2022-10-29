@@ -66,3 +66,6 @@
 
 
 - [file_open.py](file_open.py): Crear un archivo y escribir algo dentro seguido de salto de línea. Luego leer la información acumulada.
+
+
+- [file_json_colors.py](file_json_colors.py): Leer un archivo JSON de colores y listarlo.
