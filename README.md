@@ -36,13 +36,13 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Anime Finder](projects/anime_finder.py): Buscador de anime que se conecta con la API Jikan.
 - [Dice Rolling Simulator](projects/dice_rolling_simulator.py): Simulador de tirada de dados.
 - [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
+- [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [Snake Game](wip.py): Juego de la serpiente.
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
-- [Rock, Paper, Scissors](wip.py): El famoso juego "Piedra, Papel o Tijeras".
 - [Random Password Generator](wip.py): Generador de contraseñas.
 - [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
 - [Speed Typing Test](wip.py): Detecta que tan rápido escribes.
