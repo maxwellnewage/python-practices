@@ -35,10 +35,10 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Plazo Fijo](projects/plazo_fijo.py): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto.
 - [Anime Finder](projects/anime_finder.py): Buscador de anime que se conecta con la API Jikan.
 - [Dice Rolling Simulator](projects/dice_rolling_simulator.py): Simulador de tirada de dados.
+- [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [Snake Game](wip.py): Juego de la serpiente.
-- [Number Guessing](wip.py): Adivina el número que estoy pensando.
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
