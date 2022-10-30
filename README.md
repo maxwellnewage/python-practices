@@ -37,6 +37,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Dice Rolling Simulator](projects/dice_rolling_simulator.py): Simulador de tirada de dados.
 - [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
 - [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
+- [Tip Calculator App](projects/tip_calculator_app.py): Calculadora de propinas.
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [Snake Game](wip.py): Juego de la serpiente.
