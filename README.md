@@ -38,6 +38,8 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
 - [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
 - [Tip Calculator App](projects/tip_calculator_app.py): Calculadora de propinas.
+- [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
+
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [Snake Game](wip.py): Juego de la serpiente.
@@ -46,7 +48,6 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
 - [Random Password Generator](wip.py): Generador de contraseñas.
 - [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
-- [Speed Typing Test](wip.py): Detecta que tan rápido escribes.
 - [Python File Explorer](wip.py): Explorador de archivos.
 - [Web Crawler](wip.py): Navega por un sitio web y extrae información.
 - [Music Player](wip.py): Reproductor de música.
