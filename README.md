@@ -39,6 +39,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
 - [Tip Calculator App](projects/tip_calculator_app.py): Calculadora de propinas.
 - [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
+- [Random Password Generator](projects/random_password_generator.py): Generador de contraseñas.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
@@ -46,7 +47,6 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
-- [Random Password Generator](wip.py): Generador de contraseñas.
 - [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
 - [Python File Explorer](wip.py): Explorador de archivos.
 - [Web Crawler](wip.py): Navega por un sitio web y extrae información.
