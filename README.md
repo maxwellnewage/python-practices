@@ -40,10 +40,10 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Tip Calculator App](projects/tip_calculator_app.py): Calculadora de propinas.
 - [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
 - [Random Password Generator](projects/random_password_generator.py): Generador de contraseñas.
+- [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
-- [Snake Game](wip.py): Juego de la serpiente.
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
