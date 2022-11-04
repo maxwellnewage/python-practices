@@ -42,6 +42,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Random Password Generator](projects/random_password_generator.py): Generador de contraseñas.
 - [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
 - [Python File Explorer](projects/file_manager.py): Explorador de archivos.
+- [Music Player](projects/music_player/main.py): Reproductor de música.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
@@ -50,7 +51,6 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
 - [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
 - [Web Crawler](wip.py): Navega por un sitio web y extrae información.
-- [Music Player](wip.py): Reproductor de música.
 - [Instagram Photo Downloader](wip.py): Descarga imágenes publicadas en Instagram.
 - [Quiz Application](wip.py): Juego de preguntas y respuestas.
 
