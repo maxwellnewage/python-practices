@@ -15,13 +15,17 @@ class HUD:
 
     def increment_score(self, score):
         self.__score += score
-        if score > self.__high_score:
-            self.__high_score = score
+        self.set_high_score(self.__score)
         self.__set_text()
 
     def reset_score(self):
+        self.set_high_score(self.__score)
         self.__score = 0
         self.__set_text()
+
+    def set_high_score(self, score):
+        if score > self.__high_score:
+            self.__high_score = score
 
     def __set_text(self):
         self.__text.clear()
