@@ -41,6 +41,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
 - [Random Password Generator](projects/random_password_generator.py): Generador de contraseñas.
 - [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
+- [Python File Explorer](projects/file_manager.py): Explorador de archivos.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
@@ -48,7 +49,6 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
 - [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
 - [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
-- [Python File Explorer](wip.py): Explorador de archivos.
 - [Web Crawler](wip.py): Navega por un sitio web y extrae información.
 - [Music Player](wip.py): Reproductor de música.
 - [Instagram Photo Downloader](wip.py): Descarga imágenes publicadas en Instagram.
