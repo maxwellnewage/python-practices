@@ -43,12 +43,12 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
 - [Python File Explorer](projects/file_manager.py): Explorador de archivos.
 - [Music Player](projects/music_player/main.py): Reproductor de música.
+- [YouTube Video Downloader](projects/yt_video_downloader.py): Descarga videos desde YouTube.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
 - [Desktop Notifier App](wip.py): Aplicación que genera notificaciones en el sistema operativo.
-- [YouTube Video Downloader](wip.py): Descarga videos desde YouTube.
 - [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
 - [Web Crawler](wip.py): Navega por un sitio web y extrae información.
 - [Instagram Photo Downloader](wip.py): Descarga imágenes publicadas en Instagram.
