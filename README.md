@@ -45,11 +45,11 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Music Player](projects/music_player/main.py): Reproductor de música.
 - [YouTube Video Downloader](projects/yt_video_downloader.py): Descarga videos desde YouTube.
 - [Desktop Notifier App](projects/desktop_notifier_app/main.py): Aplicación que genera notificaciones en el sistema operativo.
+- [Random Wikipedia Article](projects/rand_wiki_article.py): Devuelve un artículo aleatorio de Wikipedia.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
 - [Personal Finance Dashboard](wip.py): Administrador de finanzas.
 - [The Hero](wip.py): Aventura gráfica con combate e historia.
-- [Random Wikipedia Article](wip.py): Devuelve un artículo de Wikipedia.
 - [Web Crawler](wip.py): Navega por un sitio web y extrae información.
 - [Instagram Photo Downloader](wip.py): Descarga imágenes publicadas en Instagram.
 - [Quiz Application](wip.py): Juego de preguntas y respuestas.
