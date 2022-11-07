@@ -69,3 +69,6 @@
 
 
 - [file_json_colors.py](file_json_colors.py): Leer un archivo JSON de colores y listarlo.
+
+
+- [factorial.py](factorial.py): Definir una función que genere un resultado del factorial de un número.
