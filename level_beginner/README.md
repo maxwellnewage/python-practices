@@ -75,3 +75,6 @@
 
 
 - [multiple_args.py](multiple_args.py): Definir una función que soporte múltiples argumentos.
+
+
+- [kwargs.py](kwargs.py): Crear un filtro que busque personas en un diccionario.
