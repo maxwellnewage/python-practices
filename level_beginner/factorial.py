@@ -1,5 +1,6 @@
 """
 Definir una función que genere un resultado del factorial de un número
+Explicación función factorial: https://factorialhr.ar/numero-funcion-factorial
 """
 
 
