@@ -4,10 +4,9 @@ Definir una función que genere un resultado del factorial de un número
 
 
 def factorial(n):
-    if n == 1:
+    # se ha acordado que en el caso de 0 factorial el resultado será igual a 1
+    if n == 1 or n == 0:
         return 1
-    elif n == 0:
-        return 0  # evita un desborde de recursión
     else:
         return n * factorial(n - 1)
 
