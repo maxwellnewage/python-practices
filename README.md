@@ -50,9 +50,6 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Instagram Info Downloader](projects/ig_info_downloader.py): Descarga información publicada en Instagram.
 
 - [Food Manager](wip.py): Organizador diario de alimentación.
-- [Personal Finance Dashboard](wip.py): Administrador de finanzas.
-- [The Hero](wip.py): Aventura gráfica con combate e historia.
-- [Quiz Application](wip.py): Juego de preguntas y respuestas.
 
 ## Inspiración
 Algunos ejercicios y proyectos están inspirados (solo en su consigna, la solución es de mi autoría) en las siguientes fuentes:
