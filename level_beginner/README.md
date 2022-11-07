@@ -72,3 +72,6 @@
 
 
 - [factorial.py](factorial.py): Definir una función que genere un resultado del factorial de un número.
+
+
+- [multiple_args.py](multiple_args.py): Definir una función que soporte múltiples argumentos.
