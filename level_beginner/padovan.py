@@ -11,7 +11,4 @@ def padovan(n):
         return padovan(n - 2) + padovan(n - 3)
 
 
-pad_list = []
-for num in range(15):
-    pad_list.append(padovan(num))
-print(pad_list)
+print([padovan(num) for num in range(15)])
