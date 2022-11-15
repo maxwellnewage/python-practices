@@ -5,7 +5,7 @@ Este repositorio fue creado con el propósito de aprender practicando mediante d
 Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/), un IDE gratuito y sencillo de usar. Simplemente puedes clonar este repositorio y abrirlo en el editor. Luego debes entrar a algun script que quieras correr, y darle al botón Run.
 
 ## Ejercicios
-- [Nivel Principiante](level_beginner/README.md): Ejercicios que cubren los fundamentos de la programación en python tales como:
+- [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como:
   - Entrada de datos
   - Variables y tipos de datos
   - Bucles y Condicionales
@@ -16,10 +16,10 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
   - Manipulación de archivos
 
 
-- [Nivel Intermedio](level_intermediate/README.md): Ejercicios que integran los principios aplicados de la programación orientada a objetos.
+- [Nivel Intermedio](level_intermediate/README.md): Principios aplicados de la programación orientada a objetos.
 
 
-- [Nivel Avanzado](level_advance/README.md): Ejercicios mas complejos relacionados que incluyen los siguientes temas:
+- [Nivel Avanzado](level_advance/README.md): Ejercicios más complejos relacionados que incluyen los siguientes temas:
   - Decorators
   - Generators
   - Context Managers
