@@ -81,3 +81,6 @@
 
 
 - [padovan.py](padovan.py): Secuencia de Padovan.
+
+
+- [numpy_practices.py](numpy_practices.py): Prácticas en numpy.
