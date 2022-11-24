@@ -84,3 +84,6 @@
 
 
 - [numpy_practices.py](numpy_practices.py): Prácticas en numpy.
+
+
+- [list_references.py](list_references.py): Ejemplo que demuestra como funcionan las listas por referencia.
