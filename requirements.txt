@@ -1,0 +1,8 @@
+pygame~=2.1.2
+requests~=2.28.1
+plyer~=2.0.0
+bs4~=0.0.1
+beautifulsoup4~=4.11.1
+instaloader~=4.9.5
+pytube~=12.1.0
+numpy~=1.23.4
