@@ -48,8 +48,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Random Wikipedia Article](projects/rand_wiki_article.py): Devuelve un artículo aleatorio de Wikipedia.
 - [Instagram Photo Downloader - Deprecado](projects/ig_photo_downloader_deprecated.py): Descarga imágenes publicadas en Instagram. (Deprecado)
 - [Instagram Info Downloader](projects/ig_info_downloader.py): Descarga información publicada en Instagram.
-
-- [Food Manager](wip.py): Organizador diario de alimentación.
+- [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
 
 ## Inspiración
 Algunos ejercicios y proyectos están inspirados (solo en su consigna, la solución es de mi autoría) en las siguientes fuentes:
