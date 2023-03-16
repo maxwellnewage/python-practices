@@ -87,3 +87,5 @@
 
 
 - [list_references.py](list_references.py): Ejemplo que demuestra como funcionan las listas por referencia.
+
+- [justify.py](justify.py): Se modifica un string para agregar espacios y justificados.
