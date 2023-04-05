@@ -31,6 +31,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
   - Cython
 
 ## Proyectos
+### Consola
 - [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura.
 - [Plazo Fijo](projects/plazo_fijo.py): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto.
 - [Anime Finder](projects/anime_finder.py): Buscador de anime que se conecta con la API Jikan.
@@ -48,9 +49,15 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Random Wikipedia Article](projects/rand_wiki_article.py): Devuelve un artículo aleatorio de Wikipedia.
 - [Instagram Photo Downloader - Deprecado](projects/ig_photo_downloader_deprecated.py): Descarga imágenes publicadas en Instagram. (Deprecado)
 - [Instagram Info Downloader](projects/ig_info_downloader.py): Descarga información publicada en Instagram.
-- [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
 - [Battle Rol Game System](projects/battle_rol_game_system/main.py): Juego de rol donde podemos crear un player y luchar contra un enemigo al azar.
 - [Excel Cleaner](projects/excel_cleaner/main.py): Modifica un archivo xlsx sin corromper el estilo.
+
+### APIs
+- [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
+
+### Sitios Web
+- [Employee Manager](https://github.com/maxwellnewage/udemy-django-employee-manager): Sistema de Empleados estilo ABM (desarrollado en Django)
+- [Hero Game](https://github.com/maxwellnewage/udemy-django-hero-game): CRUD de un juego de rol con Players, Enemies, Shop y Weapons (desarrollado en Django y Django-Rest-API)
 
 ## Inspiración
 Algunos ejercicios y proyectos están inspirados (solo en su consigna, la solución es de mi autoría) en las siguientes fuentes:
