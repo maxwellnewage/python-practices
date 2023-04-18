@@ -88,4 +88,8 @@
 
 - [list_references.py](list_references.py): Ejemplo que demuestra como funcionan las listas por referencia.
 
+
 - [justify.py](justify.py): Se modifica un string para agregar espacios y justificados.
+
+
+- [number_7.py](number_7.py): Escribe un programa para calcular el porcentaje de números en un rango dado que contienen el dígito 7.
