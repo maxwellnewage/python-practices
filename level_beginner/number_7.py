@@ -16,9 +16,7 @@ def percentage_of_7(given_range: int):
         if '7' in str(n):
             seven_amount += 1
 
-    per_of_7 = (seven_amount * 100) / len(numbers)
-
-    return per_of_7
+    return (seven_amount * 100) / len(numbers)
 
 
 print(f"{percentage_of_7(10)}%")
