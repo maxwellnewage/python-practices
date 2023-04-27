@@ -1,0 +1,4 @@
+-----Historial de Operaciones-----
+La suma de 1 y 1 es igual a 2
+La multiplicación de 2 y 2 es igual a 4
+La resta de 4 y 5 es igual a -1

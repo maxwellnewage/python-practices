@@ -51,6 +51,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Instagram Info Downloader](projects/ig_info_downloader.py): Descarga información publicada en Instagram.
 - [Battle Rol Game System](projects/battle_rol_game_system/main.py): Juego de rol donde podemos crear un player y luchar contra un enemigo al azar.
 - [Excel Cleaner](projects/excel_cleaner/main.py): Modifica un archivo xlsx sin corromper el estilo.
+- [Calculadora](projects/calculadora): Calculadora que avanza progresivamente en sus versiones a medida que se aprenden los fundamentos en Python.
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
