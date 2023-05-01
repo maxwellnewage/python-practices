@@ -19,16 +19,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Nivel Intermedio](level_intermediate/README.md): Principios aplicados de la programación orientada a objetos.
 
 
-- [Nivel Avanzado](level_advance/README.md): Ejercicios más complejos relacionados que incluyen los siguientes temas:
-  - Decorators
-  - Generators
-  - Context Managers
-  - Metaclasses
-  - Concurrency
-  - Parallelism
-  - Testing
-  - Packages
-  - Cython
+- [Nivel Avanzado](level_advance/README.md): Ejercicios relacionados con patrones de diseño, testing, interoperabilidad, entre otros.
 
 ## Proyectos
 ### Consola
