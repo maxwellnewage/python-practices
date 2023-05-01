@@ -20,17 +20,15 @@ class HeroBuilder:
         self.hero = Hero(name)
 
     def set_attack(self, attack):
-        if attack > 0:
-            self.hero.attack = attack
+        self.hero.attack = max(attack, 0)
         return self
 
     def set_defense(self, defense):
-        if defense > 0:
-            self.hero.defense = defense
+        self.hero.defense = max(defense, 0)
         return self
 
     def add_money(self, money):
-        self.hero.money += max(money, 0)  # evito dinero negativo
+        self.hero.money += max(money, 0)
         return self
 
     def get_hero(self):
@@ -38,7 +36,7 @@ class HeroBuilder:
 
 
 builder = HeroBuilder("Tomas")
-builder.set_attack(5).set_defense(10)
+builder.set_attack(-5).set_defense(10)
 builder.add_money(10).add_money(20).add_money(30)
 hero = builder.get_hero()
 
