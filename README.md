@@ -5,15 +5,7 @@ Este repositorio fue creado con el propósito de aprender practicando mediante d
 Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/), un IDE gratuito y sencillo de usar. Simplemente puedes clonar este repositorio y abrirlo en el editor. Luego debes entrar a algun script que quieras correr, y darle al botón Run.
 
 ## Ejercicios
-- [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como:
-  - Entrada de datos
-  - Variables y tipos de datos
-  - Bucles y Condicionales
-  - Operadores
-  - Arreglos y Tuplas
-  - Operaciones con Cadenas (Strings)
-  - Funciones lambda
-  - Manipulación de archivos
+- [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como estructuras de datos, control de flujo, operadores lógicos y aritméticos, manipulación de archivos, entre otros.
 
 
 - [Nivel Intermedio](level_intermediate/README.md): Principios aplicados de la programación orientada a objetos.
