@@ -9,5 +9,6 @@ def find_vowels(phrase):
     return vowel_regex.findall(phrase)
 
 
-print(find_vowels('Quiero las vocales de esta cadena'))
+if __name__ == '__main__':
+    print(find_vowels('Quiero las vocales de esta cadena'))
 
