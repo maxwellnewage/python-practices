@@ -19,4 +19,5 @@ def percentage_of_7(given_range: int):
     return (seven_amount * 100) / len(numbers)
 
 
-print(f"{percentage_of_7(10)}%")
+if __name__ == '__main__':
+    print(f"{percentage_of_7(10)}%")

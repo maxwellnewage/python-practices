@@ -11,6 +11,7 @@ def max_in_list(list_numbers):
     return max_num
 
 
-print(max_in_list([1, 3, 5]))
-print(max_in_list([1, 3, 5, 7, 9]))
-print(max_in_list([1, 3, 10, 7, 9]))
+if __name__ == '__main__':
+    print(max_in_list([1, 3, 5]))
+    print(max_in_list([1, 3, 5, 7, 9]))
+    print(max_in_list([1, 3, 10, 7, 9]))

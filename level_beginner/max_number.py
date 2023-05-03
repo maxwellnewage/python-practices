@@ -7,5 +7,6 @@ def max_num(n1, n2):
     return n1 if n1 > n2 else n2
 
 
-# print(max_num(1, 2))
-# print(max_num(4, 1))
+if __name__ == '__main__':
+    print(max_num(1, 2))
+    print(max_num(4, 1))

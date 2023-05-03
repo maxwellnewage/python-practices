@@ -17,5 +17,6 @@ class CalculadoraDescriptiva(Calculadora):
         return f"{self.n1} - {self.n2} = {super().resta()}"
 
 
-print(CalculadoraDescriptiva(1, 2).suma())
-print(CalculadoraDescriptiva(1, 2).resta())
+if __name__ == '__main__':
+    print(CalculadoraDescriptiva(1, 2).suma())
+    print(CalculadoraDescriptiva(1, 2).resta())

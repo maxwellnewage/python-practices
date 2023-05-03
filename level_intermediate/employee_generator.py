@@ -23,7 +23,8 @@ class Employee(Person):
         return f"El empleado {self.full_name()} tiene el rol de {self.__role} con un salario de ${self.__salary}"
 
 
-maxwell = Person("Maxwell", "Tompson")
-print(maxwell.full_name())
-tomas = Employee("Tomas", "Dickens", "Developer", 12000)
-print(tomas.info())
+if __name__ == '__main__':
+    maxwell = Person("Maxwell", "Tompson")
+    print(maxwell.full_name())
+    tomas = Employee("Tomas", "Dickens", "Developer", 12000)
+    print(tomas.info())

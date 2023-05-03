@@ -9,7 +9,7 @@ def is_vowel(character: str):
     return True if character.lower() in vowels else False
 
 
-def main():
+if __name__ == '__main__':
     print(is_vowel('A'))
     print(is_vowel('b'))
     print(is_vowel('I'))

@@ -13,4 +13,5 @@ def list_name_filter(names: list[str], first_letter):
     return names_result
 
 
-print(list_name_filter(["Max", "Tomas", "Rocky", "Mendel", "Misty"], "M"))
+if __name__ == '__main__':
+    print(list_name_filter(["Max", "Tomas", "Rocky", "Mendel", "Misty"], "M"))

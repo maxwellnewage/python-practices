@@ -9,7 +9,8 @@ def es_palindromo(string: str):
     return string == inversa(string)
 
 
-print(es_palindromo("ala"))
-print(es_palindromo("estrato"))
-print(es_palindromo("amor"))
-print(es_palindromo("oro"))
+if __name__ == '__main__':
+    print(es_palindromo("ala"))
+    print(es_palindromo("estrato"))
+    print(es_palindromo("amor"))
+    print(es_palindromo("oro"))

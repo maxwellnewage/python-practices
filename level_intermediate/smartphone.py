@@ -34,7 +34,8 @@ class SmartPhone(Phone, Camera, Player):
     pass
 
 
-smartphone = SmartPhone()
-smartphone.call()
-smartphone.play_song()
-smartphone.take_picture()
+if __name__ == '__main__':
+    smartphone = SmartPhone()
+    smartphone.call()
+    smartphone.play_song()
+    smartphone.take_picture()

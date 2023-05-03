@@ -21,13 +21,9 @@ class Calculadora:
         return self.n1 / self.n2
 
 
-def main():
+if __name__ == "__main__":
     calc = Calculadora(1, 2)
     print(calc.suma())
     print(calc.resta())
     print(calc.multi())
     print(calc.div())
-
-
-if __name__ == "__main__":
-    main()

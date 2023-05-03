@@ -9,8 +9,9 @@ def find_all_phone_numbers(text):
     return phone_regex.findall(text)
 
 
-print(find_all_phone_numbers("""
-    Esto es un numero de télefono: 415-232-2333, 
-    esto no 444-222, 
-    pero esto si 445-252-2333
-"""))
+if __name__ == '__main__':
+    print(find_all_phone_numbers("""
+        Esto es un numero de télefono: 415-232-2333, 
+        esto no 444-222, 
+        pero esto si 445-252-2333
+    """))

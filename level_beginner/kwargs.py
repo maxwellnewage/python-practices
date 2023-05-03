@@ -17,7 +17,8 @@ def search_person(**attrs):
     return person_list
 
 
-print(search_person(first_name="Max"))
-print(search_person(last_name="Clans"))
-print(search_person(last_name="Dimmer"))
-print(search_person(last_name="No One"))
+if __name__ == '__main__':
+    print(search_person(first_name="Max"))
+    print(search_person(last_name="Clans"))
+    print(search_person(last_name="Dimmer"))
+    print(search_person(last_name="No One"))

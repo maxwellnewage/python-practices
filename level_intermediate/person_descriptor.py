@@ -13,5 +13,6 @@ class Person:
         return f"{self.__first_name} {self.__last_name} {self.__age}"
 
 
-maxwell = Person("Maxwell", "Tompson", 32)
-print(maxwell)
+if __name__ == '__main__':
+    maxwell = Person("Maxwell", "Tompson", 32)
+    print(maxwell)

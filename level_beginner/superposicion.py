@@ -16,6 +16,7 @@ def superposicion(list_1, list_2):
     return same_member
 
 
-print(superposicion([1, 2], [1, 3]))
-print(superposicion([1, 2], [4, 3]))
-print(superposicion([1, 2, 3, 4], [1, 5, 3]))
+if __name__ == '__main__':
+    print(superposicion([1, 2], [1, 3]))
+    print(superposicion([1, 2], [4, 3]))
+    print(superposicion([1, 2, 3, 4], [1, 5, 3]))

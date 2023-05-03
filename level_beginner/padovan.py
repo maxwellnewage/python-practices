@@ -11,4 +11,5 @@ def padovan(n):
         return padovan(n - 2) + padovan(n - 3)
 
 
-print([padovan(num) for num in range(15)])
+if __name__ == '__main__':
+    print([padovan(num) for num in range(15)])

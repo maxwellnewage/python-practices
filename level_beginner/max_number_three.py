@@ -10,5 +10,6 @@ def max_num_three(n1, n2, n3):
     return res if res > n3 else n3
 
 
-print(max_num_three(1, 2, 4))
-print(max_num_three(10, 5, 1))
+if __name__ == '__main__':
+    print(max_num_three(1, 2, 4))
+    print(max_num_three(10, 5, 1))

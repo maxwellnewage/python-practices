@@ -12,5 +12,6 @@ def par_impar(n1: str):
     return sum_num % 2 == 0
 
 
-number = input("Introduce un numero: ")
-print(par_impar(number))
+if __name__ == '__main__':
+    number = input("Introduce un numero: ")
+    print(par_impar(number))

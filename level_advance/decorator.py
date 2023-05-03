@@ -16,4 +16,5 @@ def sum_2_nums(n1, n2):
     print(f"La suma de {n1} y {n2} es {n1 + n2}")
 
 
-sum_2_nums(1, 2)
+if __name__ == '__main__':
+    sum_2_nums(1, 2)

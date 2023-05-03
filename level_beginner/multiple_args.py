@@ -9,6 +9,7 @@ def name_likes_colors(name, *colors):
         print(f"- {c}")
 
 
-print(name_likes_colors("Max", "azul"))
-print(name_likes_colors("Tomas", "azul", "verde"))
-print(name_likes_colors("Clark", "azul", "verde", "rojo"))
+if __name__ == '__main__':
+    print(name_likes_colors("Max", "azul"))
+    print(name_likes_colors("Tomas", "azul", "verde"))
+    print(name_likes_colors("Clark", "azul", "verde", "rojo"))

@@ -21,7 +21,8 @@ class Calculadora:
         return n1 / n2
 
 
-print(Calculadora.suma(1, 2))
-print(Calculadora.resta(1, 2))
-print(Calculadora.multi(1, 2))
-print(Calculadora.div(1, 2))
+if __name__ == '__main__':
+    print(Calculadora.suma(1, 2))
+    print(Calculadora.resta(1, 2))
+    print(Calculadora.multi(1, 2))
+    print(Calculadora.div(1, 2))

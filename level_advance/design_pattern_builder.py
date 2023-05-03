@@ -37,9 +37,10 @@ class HeroBuilder:
         return self.hero
 
 
-builder = HeroBuilder("Tomas")
-builder.set_attack(-5).set_defense(10)
-builder.add_money(10).add_money(20).add_money(30)
-hero = builder.get_hero()
+if __name__ == '__main__':
+    builder = HeroBuilder("Tomas")
+    builder.set_attack(-5).set_defense(10)
+    builder.add_money(10).add_money(20).add_money(30)
+    hero = builder.get_hero()
 
-print(hero)
+    print(hero)

@@ -13,10 +13,11 @@ def find_names(text):
         return None
 
 
-find_max = find_names('Name:max')
-find_tomas = find_names('Name:tomas')
-find_voltor = find_names('Name:voltor')
+if __name__ == '__main__':
+    find_max = find_names('Name:max')
+    find_tomas = find_names('Name:tomas')
+    find_voltor = find_names('Name:voltor')
 
-print(find_max)
-print(find_tomas)
-print(find_voltor)
+    print(find_max)
+    print(find_tomas)
+    print(find_voltor)

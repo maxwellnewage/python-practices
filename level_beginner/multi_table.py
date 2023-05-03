@@ -10,6 +10,7 @@ def multi_table(num):
     print("------------------------------")
 
 
-multi_table(2)
-multi_table(4)
-multi_table(5)
+if __name__ == '__main__':
+    multi_table(2)
+    multi_table(4)
+    multi_table(5)

@@ -12,7 +12,8 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
-print(factorial(7))
-print(factorial(3))
-print(factorial(1))
-print(factorial(0))
+if __name__ == '__main__':
+    print(factorial(7))
+    print(factorial(3))
+    print(factorial(1))
+    print(factorial(0))

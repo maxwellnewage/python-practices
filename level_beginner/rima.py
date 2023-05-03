@@ -14,7 +14,8 @@ def rima(first_word: str, second_word: str):
         return "las palabras no riman."
 
 
-print(rima("casa", "sa"))
-print(rima("plaza", "maza"))
-print(rima("taza", "raza"))
-print(rima("caos", "puente"))
+if __name__ == '__main__':
+    print(rima("casa", "sa"))
+    print(rima("plaza", "maza"))
+    print(rima("taza", "raza"))
+    print(rima("caos", "puente"))

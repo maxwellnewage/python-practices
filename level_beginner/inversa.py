@@ -10,5 +10,5 @@ def inversa(string: str):
     return reversed_string
 
 
-def main():
+if __name__ == '__main__':
     print(inversa("Hola"))

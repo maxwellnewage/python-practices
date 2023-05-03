@@ -12,6 +12,7 @@ def filtrar_palabras(words_list: list[str], chars: int):
     return words_more_n_chars
 
 
-print(filtrar_palabras(["lista", "de", "palabras"], 2))
-print(filtrar_palabras(["aaa", "b", "cc"], 2))
-print(filtrar_palabras(["a", "bb", "ccc", "dddd"], 3))
+if __name__ == '__main__':
+    print(filtrar_palabras(["lista", "de", "palabras"], 2))
+    print(filtrar_palabras(["aaa", "b", "cc"], 2))
+    print(filtrar_palabras(["a", "bb", "ccc", "dddd"], 3))

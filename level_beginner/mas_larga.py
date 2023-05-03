@@ -20,6 +20,7 @@ def mas_larga(phrase):
     return largest_word
 
 
-print(mas_larga("¿Cual es la palabra mas larga?"))
-print(mas_larga("Si la palabra es palindromo, esta bien"))
-print(mas_larga("Esto es una gran frase"))
+if __name__ == '__main__':
+    print(mas_larga("¿Cual es la palabra mas larga?"))
+    print(mas_larga("Si la palabra es palindromo, esta bien"))
+    print(mas_larga("Esto es una gran frase"))

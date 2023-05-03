@@ -14,7 +14,8 @@ def contar_vocales(word: str):
     return vocals
 
 
-print(contar_vocales("abecedario"))
-print(contar_vocales("palabra"))
-print(contar_vocales("sistema"))
-print(contar_vocales("aaa"))
+if __name__ == '__main__':
+    print(contar_vocales("abecedario"))
+    print(contar_vocales("palabra"))
+    print(contar_vocales("sistema"))
+    print(contar_vocales("aaa"))

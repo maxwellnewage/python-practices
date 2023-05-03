@@ -11,8 +11,9 @@ def es_bisiesto(year):
         return False
 
 
-print(es_bisiesto(1900))
-print(es_bisiesto(1992))
-print(es_bisiesto(1996))
-print(es_bisiesto(2020))
-print(es_bisiesto(2022))
+if __name__ == '__main__':
+    print(es_bisiesto(1900))
+    print(es_bisiesto(1992))
+    print(es_bisiesto(1996))
+    print(es_bisiesto(2020))
+    print(es_bisiesto(2022))

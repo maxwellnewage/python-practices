@@ -9,7 +9,7 @@ def phone_number_group(text):
     return phone_regex.search(text)
 
 
-phone_group = phone_number_group('415-232-2333')
-
-print(phone_group.group(1))
-print(phone_group.group(2))
+if __name__ == '__main__':
+    phone_group = phone_number_group('415-232-2333')
+    print(phone_group.group(1))
+    print(phone_group.group(2))

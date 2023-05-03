@@ -10,5 +10,6 @@ def calc_list_or_string(value):
     return size
 
 
-print(calc_list_or_string([1, 4, "bla", True]))
-print(calc_list_or_string("esto es una cadena"))
+if __name__ == '__main__':
+    print(calc_list_or_string([1, 4, "bla", True]))
+    print(calc_list_or_string("esto es una cadena"))
