@@ -10,3 +10,4 @@
 - [greedy_non-greedy_match.py](regex/greedy_non-greedy_match.py): Testeando greedy y non-greedy matches.
 - [regex_pipe.py](regex/regex_pipe.py): Buscar una serie de posibles nombres por Pipe.
 - [vowel_detector.py](regex/vowel_detector.py): Detectar una lista de vocales mayúsculas y minúsculas en un string.
+- [consonants_detector.py](regex/consonants_detector.py): Detectar una lista de consonantes en un string.
