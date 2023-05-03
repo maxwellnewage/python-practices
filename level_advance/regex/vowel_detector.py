@@ -5,7 +5,7 @@ import re
 
 
 def find_vowels(phrase):
-    vowel_regex = re.compile(r'[aeiouAeiou]')
+    vowel_regex = re.compile(r'[aeiouAEIOU]')
     return vowel_regex.findall(phrase)
 
 
