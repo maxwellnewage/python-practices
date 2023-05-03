@@ -3,6 +3,11 @@ Detectar una lista de vocales mayúsculas y minúsculas en un string.
 """
 import re
 
-vowel_regex = re.compile(r'[aeiouAeiou]')
 
-print(vowel_regex.findall('Quiero las vocales de esta cadena'))
+def find_vowels(phrase):
+    vowel_regex = re.compile(r'[aeiouAeiou]')
+    return vowel_regex.findall(phrase)
+
+
+print(find_vowels('Quiero las vocales de esta cadena'))
+
