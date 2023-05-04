@@ -1,5 +1,8 @@
 # Prácticas en Python
 Este repositorio fue creado con el propósito de aprender practicando mediante distintos ejercicios planteados en cada uno de los scripts.
+Si estás interesado/a en aprender Python de cero, te recomiendo que entres a mis cursos:
+- [Desarrollo web con Python y Django](https://www.udemy.com/course/desarrollo-de-sitios-web-con-python-3-con-django/?referralCode=A491B0944C634BFAA48C)
+- [Demo del curso anterior](https://www.youtube.com/playlist?list=PLp7PPjAxisAICL8_g0lmC3thJvHW5Hbe3)
 
 ## Puesta en marcha
 Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/), un IDE gratuito y sencillo de usar. Simplemente puedes clonar este repositorio y abrirlo en el editor. Luego debes entrar a algun script que quieras correr, y darle al botón Run.
