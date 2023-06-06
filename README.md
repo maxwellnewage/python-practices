@@ -11,6 +11,7 @@ Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/downloa
 - [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como estructuras de datos, control de flujo, operadores lógicos y aritméticos, manipulación de archivos, entre otros.
 - [Nivel Intermedio](level_intermediate/README.md): Principios aplicados de la programación orientada a objetos.
 - [Nivel Avanzado](level_advance/README.md): Ejercicios relacionados con patrones de diseño, testing, interoperabilidad, entre otros.
+- [HackerRank](hackerrank/README.md): Challenges seleccionados de [HackerRank](https://www.hackerrank.com/).
 
 ## Proyectos
 ### Consola
