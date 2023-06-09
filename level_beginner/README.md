@@ -32,3 +32,4 @@
 - [justify.py](justify.py): Se modifica un string para agregar espacios y justificados.
 - [number_7.py](number_7.py): Escribe un programa para calcular el porcentaje de números en un rango dado que contienen el dígito 7.
 - [count_vowels_dict.py](count_vowels_dict.py): Contar vocales de una frase y generar un diccionario con clave en cada vocal.
+- [array_ordering.py](array_ordering.py): Ordenar dos arrays enteros de forma ascendente.
