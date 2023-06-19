@@ -1,16 +1,16 @@
 def operate(op_word, n1, n2):
-    op = ""
+    op = "La {op_word} de {n1} y {n2} es igual a"
     int_n1 = int(n1)
     int_n2 = int(n2)
 
     if op_word == "suma":
-        op = f"La {op_word} de {n1} y {n2} es igual a {int_n1 + int_n2}"
+        op = f"{op} {int_n1 + int_n2}"
     elif op_word == "resta":
-        op = f"La {op_word} de {n1} y {n2} es igual a {int_n1 - int_n2}"
+        op = f"{op} {int_n1 - int_n2}"
     elif op_word == "multiplicación":
-        op = f"La {op_word} de {n1} y {n2} es igual a {int_n1 * int_n2}"
+        op = f"{op} {int_n1 * int_n2}"
     elif op_word == "división":
-        op = f"La {op_word} de {n1} y {n2} es igual a {int_n1 / int_n2}"
+        op = f"{op} {int_n1 / int_n2}"
 
     operation_history.append(op)
     write_history_file(op)
@@ -50,7 +50,9 @@ operation_history = []
 
 while True:
     try:
-        num1, num2 = input("Escribe dos números separados por espacio: ").split()
+        num1, num2 = input(
+            "Escribe dos números separados por espacio: "
+            ).split()
         sign = input("Ingrese signo: ")
 
         if len(sign) > 0:

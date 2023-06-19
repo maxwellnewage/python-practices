@@ -26,5 +26,9 @@ np_multi_array = np.array([
     [4, 5, 6]
 ])
 
-print(f"Tipo: {type(py_multi_list)} | Tamaño: {getsizeof(py_multi_list)} bytes")
-print(f"Tipo: {np_multi_array.dtype} | Tamaño: {np_multi_array.nbytes} bytes")
+print(
+    f"Tipo: {type(py_multi_list)} | Tamaño: {getsizeof(py_multi_list)} bytes"
+)
+print(
+    f"Tipo: {np_multi_array.dtype} | Tamaño: {np_multi_array.nbytes} bytes"
+)

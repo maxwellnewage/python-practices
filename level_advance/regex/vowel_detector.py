@@ -16,4 +16,3 @@ def find_vowels_ignore_case(phrase):
 if __name__ == '__main__':
     print(find_vowels('Quiero las vOcalEs de Esta cadena'))
     print(find_vowels_ignore_case('Quiero las vOcalEs de Esta cadenA'))
-

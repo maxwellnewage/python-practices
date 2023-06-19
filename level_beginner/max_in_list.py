@@ -1,5 +1,6 @@
 """
-Escribir una función max_in_list() que tome una lista de números y devuelva el mas grande.
+Escribir una función max_in_list() que tome
+una lista de números y devuelva el mas grande.
 """
 
 

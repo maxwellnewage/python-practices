@@ -3,7 +3,7 @@ Aplicación que genera notificaciones en el sistema operativo.
 Basado en https://youtu.be/cfjPfYuZBZs
 """
 
-from tkinter import *
+from tkinter import Tk, PhotoImage, Label, Entry, Button
 from plyer import notification
 from tkinter import messagebox
 
@@ -33,7 +33,11 @@ APP_NAME = "Notifier App"
 
 Label(root, image=header_image).grid()
 
-title_label = Label(root, text="Título de la notificación", font=("poppins", 10))
+title_label = Label(
+    root,
+    text="Título de la notificación",
+    font=("poppins", 10)
+)
 title_label.place(x=12, y=70)
 
 title_entry = Entry(root, width=35, font=("poppins", 13))

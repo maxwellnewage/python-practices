@@ -20,7 +20,10 @@ class Employee(Person):
         self.__salary = salary
 
     def info(self):
-        return f"El empleado {self.full_name()} tiene el rol de {self.__role} con un salario de ${self.__salary}"
+        return \
+            f"El empleado {self.full_name()} " \
+            f"tiene el rol de {self.__role} " \
+            f"con un salario de ${self.__salary}"
 
 
 if __name__ == '__main__':

@@ -2,15 +2,18 @@
 Descarga información publicada en Instagram.
 Basada en https://youtu.be/gDHQF7TFyUY
 """
-import instaloader
 from instaloader import Instaloader, Profile
 
-l = instaloader.Instaloader()
+instaloader = Instaloader()
 
 input_profile = input("Cual es tu perfil?: ")
-profile = Profile.from_username(l.context, input_profile)
+profile = Profile.from_username(instaloader.context, input_profile)
 
-posts_sorted_by_likes = sorted(profile.get_posts(), key=lambda post: post.likes, reverse=True)
+posts_sorted_by_likes = sorted(
+    profile.get_posts(),
+    key=lambda post: post.likes,
+    reverse=True
+)
 
 for post in posts_sorted_by_likes:
     print(f"Titulo: {post.title}")

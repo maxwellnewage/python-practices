@@ -12,7 +12,9 @@ class Hero:
         self.defense = 0
 
     def __str__(self):
-        return f"Hero: {self.name} | 💰{self.money} ⚔{self.attack} 🛡{self.defense}"
+        return \
+            f"Hero: {self.name} | " \
+            f"💰{self.money} ⚔{self.attack} 🛡{self.defense}"
 
 
 class HeroBuilder:
@@ -20,12 +22,14 @@ class HeroBuilder:
         self.hero = Hero(name)
 
     def set_attack(self, attack):
-        # si me envían un ataque inferior al actual, preservo el que ya tenía
+        # si me envían un ataque inferior al actual,
+        # preservo el que ya tenía
         self.hero.attack = max(attack, self.hero.attack)
         return self
 
     def set_defense(self, defense):
-        # si me envían una defensa inferior a la actual, preservo la que ya tenía
+        # si me envían una defensa inferior a la actual,
+        # preservo la que ya tenía
         self.hero.defense = max(defense, self.hero.defense)
         return self
 

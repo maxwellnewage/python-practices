@@ -4,7 +4,6 @@ from food import Food
 
 import turtle
 import time
-import random
 
 
 class Snake(Movement):

@@ -39,6 +39,13 @@ else:
         print(f"Rating: {anime['rating']}")
         print(f"Score: {anime['score']}")
         print(f"Popularidad: {anime['popularity']}")
-        print(f"Temporada: {anime['season'] if anime['season'] is not None else 'No existe información'}")
-        print(f"Año: {anime['year'] if anime['year'] is not None else 'No existe información'}")
+        season = anime['season'] \
+            if anime['season'] is not None \
+            else 'No existe información'
+        print(f"Temporada: {season}")
+
+        year = anime['year'] \
+            if anime['year'] is not None \
+            else 'No existe información'
+        print(f"Año: {year}")
         print("---------------------------------")

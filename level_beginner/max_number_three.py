@@ -1,5 +1,6 @@
 """
-Definir una función max_num_three(), que tome tres números como argumentos y devuelva el mayor de ellos.
+Definir una función max_num_three(),
+que tome tres números como argumentos y devuelva el mayor de ellos.
 """
 
 from max_number import max_num

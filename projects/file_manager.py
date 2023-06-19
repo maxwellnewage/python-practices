@@ -3,9 +3,9 @@ Explorador de archivos.
 """
 
 import os
-import shutil
 
-# Nuestro source es la carpeta del proyecto, entonces vamos un nivel hacia arriba
+# Nuestro source es la carpeta del proyecto,
+# entonces vamos un nivel hacia arriba
 source = "../"
 
 py_file_formats = ['py']
@@ -32,4 +32,3 @@ for index, project_file in enumerate(project_file_list):
     if index == 0:
         print("-- Archivos de Proyecto --")
     print(project_file)
-

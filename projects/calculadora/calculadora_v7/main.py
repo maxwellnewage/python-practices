@@ -2,7 +2,9 @@ from calculadora import Calculadora
 
 while True:
     try:
-        num1, num2 = input("Escribe dos números separados por espacio: ").split()
+        num1, num2 = input(
+            "Escribe dos números separados por espacio: "
+            ).split()
         sign = input("Ingrese signo: ")
 
         calc = Calculadora(num1, num2, sign)

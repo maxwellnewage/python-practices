@@ -9,19 +9,27 @@ while True:
             int_num1 = int(num1)
             int_num2 = int(num2)
             if sign == "+":
-                operation = f"La suma de {num1} y {num2} es igual a {int_num1 + int_num2}"
+                operation = \
+                    f"La suma de {num1} y {num2} " \
+                    f"es igual a {int_num1 + int_num2}"
                 operation_history.append(operation)
                 print(operation)
             elif sign == "-":
-                operation = f"La resta de {num1} y {num2} es igual a {int_num1 - int_num2}"
+                operation = \
+                    f"La resta de {num1} y {num2} " \
+                    f"es igual a {int_num1 - int_num2}"
                 operation_history.append(operation)
                 print(operation)
             elif sign == "*":
-                operation = f"La multiplicación de {num1} y {num2} es igual a {int_num1 * int_num2}"
+                operation = \
+                    f"La multiplicación de {num1} y {num2} " \
+                    f"es igual a {int_num1 * int_num2}"
                 operation_history.append(operation)
                 print(operation)
             elif sign == "/":
-                operation = f"La división de {num1} y {num2} es igual a {int_num1 / int_num2}"
+                operation = \
+                    f"La división de {num1} y {num2} " \
+                    f"es igual a {int_num1 / int_num2}"
                 operation_history.append(operation)
                 print(operation)
             else:

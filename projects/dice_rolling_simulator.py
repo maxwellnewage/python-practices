@@ -16,4 +16,3 @@ print("----------------------------")
 print("-- Dice Rolling Simulator --")
 print("----------------------------")
 dice(int(input("Cuantos dados usaremos?: ")))
-

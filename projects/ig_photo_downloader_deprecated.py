@@ -16,7 +16,8 @@ import re
 def get_response(p_url):
     r = requests.get(p_url)
     while r.status_code != 200:
-        # Utilizo recursividad para obtener una respuesta hasta que funcione el request
+        # Utilizo recursividad para obtener una respuesta
+        # hasta que funcione el request
         get_response(p_url)
     return r.text
 

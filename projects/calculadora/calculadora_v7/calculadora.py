@@ -33,18 +33,18 @@ class Calculadora:
             print("El signo no puede ser vacío!")
 
     def __operate(self, op_word):
-        op = ""
+        op = f"La {op_word} de {self.n1} y {self.n2} es igual a"
         int_n1 = int(self.n1)
         int_n2 = int(self.n2)
 
         if op_word == "suma":
-            op = f"La {op_word} de {self.n1} y {self.n2} es igual a {int_n1 + int_n2}"
+            op = f"{op} {int_n1 + int_n2}"
         elif op_word == "resta":
-            op = f"La {op_word} de {self.n1} y {self.n2} es igual a {int_n1 - int_n2}"
+            op = f"{op} {int_n1 - int_n2}"
         elif op_word == "multiplicación":
-            op = f"La {op_word} de {self.n1} y {self.n2} es igual a {int_n1 * int_n2}"
+            op = f"{op} {int_n1 * int_n2}"
         elif op_word == "división":
-            op = f"La {op_word} de {self.n1} y {self.n2} es igual a {int_n1 / int_n2}"
+            op = f"{op} {int_n1 / int_n2}"
 
         self.operation_history.append(op)
         self.__write_history_file(op)

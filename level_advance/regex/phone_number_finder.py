@@ -20,8 +20,8 @@ def find_all_phone_numbers_verbose(text):
 
 if __name__ == '__main__':
     text = """
-        Esto es un numero de télefono: 415-232-2333, 
-        esto no 444-222, 
+        Esto es un numero de télefono: 415-232-2333,
+        esto no 444-222,
         pero esto si 445-252-2333
     """
 

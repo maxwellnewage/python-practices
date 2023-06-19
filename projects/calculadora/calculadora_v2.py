@@ -7,13 +7,25 @@ while True:
             int_num1 = int(num1)
             int_num2 = int(num2)
             if sign == "+":
-                print(f"La suma de {num1} y {num2} es igual a {int_num1 + int_num2}")
+                print(
+                    f"La suma de {num1} y {num2} "
+                    f"es igual a {int_num1 + int_num2}"
+                )
             elif sign == "-":
-                print(f"La resta de {num1} y {num2} es igual a {int_num1 - int_num2}")
+                print(
+                    f"La resta de {num1} y {num2} "
+                    f"es igual a {int_num1 - int_num2}"
+                )
             elif sign == "*":
-                print(f"La multiplicación de {num1} y {num2} es igual a {int_num1 * int_num2}")
+                print(
+                    f"La multiplicación de {num1} y {num2} "
+                    f"es igual a {int_num1 * int_num2}"
+                )
             elif sign == "/":
-                print(f"La división de {num1} y {num2} es igual a {int_num1 / int_num2}")
+                print(
+                    f"La división de {num1} y {num2} "
+                    f"es igual a {int_num1 / int_num2}"
+                )
             else:
                 print("El signo no es el correcto!")
         else:

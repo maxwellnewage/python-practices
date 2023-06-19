@@ -1,5 +1,6 @@
 """
-Crear un teléfono inteligente que posea distintas características aplicadas con herencia múltiple.
+Crear un teléfono inteligente que posea distintas características
+aplicadas con herencia múltiple.
 """
 
 

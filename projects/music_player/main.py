@@ -2,11 +2,12 @@
 Reproductor de música.
 Basado en https://youtu.be/SCos1o368iE
 
-Dejé un archivo en resources/Luke_Bryan_Country_On.mp3 para testear el reproductor,
+Dejé un archivo en resources/Luke_Bryan_Country_On.mp3
+para testear el reproductor,
 pero se puede utilizar también con archivos de tu propia PC.
 """
 
-from tkinter import *
+from tkinter import END, Button, Frame, Listbox, Menu, PhotoImage, Tk
 from tkinter import filedialog
 import pygame
 import os
@@ -67,7 +68,7 @@ def next_music():
         song_list.selection_set(songs.index(current_song) + 1)
         current_song = songs[song_list.curselection()[0]]
         play_music()
-    except:
+    except Exception:
         pass
 
 
@@ -78,7 +79,7 @@ def previous_music():
         song_list.selection_set(songs.index(current_song) - 1)
         current_song = songs[song_list.curselection()[0]]
         play_music()
-    except:
+    except Exception:
         pass
 
 
@@ -97,11 +98,32 @@ previous_btn_image = PhotoImage(file='resources/previous.png')
 control_frame = Frame(root)
 control_frame.pack()
 
-# Me quería llevar esto a objetos, pero no puedo pasar parámetros a las funciones de command
-play_btn = Button(control_frame, image=play_btn_image, borderwidth=0, command=play_music)
-pause_btn = Button(control_frame, image=pause_btn_image, borderwidth=0, command=pause_music)
-next_btn = Button(control_frame, image=next_btn_image, borderwidth=0, command=next_music)
-previous_btn = Button(control_frame, image=previous_btn_image, borderwidth=0, command=previous_music)
+# Me quería llevar esto a objetos,
+# pero no puedo pasar parámetros a las funciones de command
+play_btn = Button(
+    control_frame,
+    image=play_btn_image,
+    borderwidth=0,
+    command=play_music
+)
+pause_btn = Button(
+    control_frame,
+    image=pause_btn_image,
+    borderwidth=0,
+    command=pause_music
+)
+next_btn = Button(
+    control_frame,
+    image=next_btn_image,
+    borderwidth=0,
+    command=next_music
+)
+previous_btn = Button(
+    control_frame,
+    image=previous_btn_image,
+    borderwidth=0,
+    command=previous_music
+)
 
 play_btn.grid(row=0, column=1, padx=7, pady=10)
 pause_btn.grid(row=0, column=2, padx=7, pady=10)

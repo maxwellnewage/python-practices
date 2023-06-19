@@ -11,7 +11,10 @@ class Character:
     def attack(self, target):
         damage = max(self.atq - target.df, 0)
         target.hp -= damage
-        print(f"{self.name} ha causado {damage} puntos de daño a {target.name}.")
+        print(
+            f"{self.name} ha causado {damage} "
+            f"puntos de daño a {target.name}."
+        )
 
     def is_alive(self):
         return self.hp > 0

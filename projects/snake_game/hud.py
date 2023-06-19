@@ -29,7 +29,8 @@ class HUD:
 
     def __set_text(self):
         self.__text.clear()
-        self.__text.write(f"Score: {self.__score} | High Score: {self.__high_score}",
-                          align="center",
-                          font=("Courier", 24, "normal")
-                          )
+        self.__text.write(
+            f"Score: {self.__score} | High Score: {self.__high_score}",
+            align="center",
+            font=("Courier", 24, "normal")
+        )

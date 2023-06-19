@@ -37,6 +37,9 @@ class Game:
                 self.enemy.attack(self.player)
 
         if self.player.is_alive():
-            print(f"Felicidades {self.player.name}, has vencido a {self.enemy.name}!")
+            print(
+                f"Felicidades {self.player.name}, "
+                f"has vencido a {self.enemy.name}!"
+            )
         else:
             print(f"Has sido derrotado por {self.enemy.name}...")

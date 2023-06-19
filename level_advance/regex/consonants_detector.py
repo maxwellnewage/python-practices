@@ -13,4 +13,3 @@ def find_consonants(phrase):
 
 if __name__ == '__main__':
     print(find_consonants('Quiero las consonantes de esta cadena'))
-

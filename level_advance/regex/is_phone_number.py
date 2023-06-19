@@ -31,5 +31,11 @@ def is_phone_number_regex(text):
 
 
 if __name__ == '__main__':
-    print(is_phone_number('415-232-2333'), is_phone_number('415-232-333'))
-    print(is_phone_number_regex('415-232-2333'), is_phone_number_regex('415-232-333'))
+    print(
+        is_phone_number('415-232-2333'),
+        is_phone_number('415-232-333')
+    )
+    print(
+        is_phone_number_regex('415-232-2333'),
+        is_phone_number_regex('415-232-333')
+    )

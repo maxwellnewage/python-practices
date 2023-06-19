@@ -13,7 +13,12 @@ persons = [
 def search_person(**attrs):
     person_list = []
     for key, value in attrs.items():
-        person_list += [person for person in persons if key in person and value == person[key]]
+        person_list += \
+            [
+                person
+                for person in persons
+                if key in person and value == person[key]
+            ]
     return person_list
 
 

@@ -1,5 +1,6 @@
 """
-Definir una función generar_n_caracteres() que tome un entero n y devuelva el caracter multiplicado por n.
+Definir una función generar_n_caracteres()
+que tome un entero n y devuelva el caracter multiplicado por n.
 """
 
 

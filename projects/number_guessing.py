@@ -51,8 +51,12 @@ current_score = 0
 
 def show_difficulty():
     for i, d in enumerate(difficulty):
-        print(f"{i + 1}. En la dificultad {d['name']} tienes que adivinar entre {d['numbers']} números, pero tendrás "
-              f"un multiplicador de puntaje de {d['bonus']}x")
+        print(
+            f"{i + 1}. "
+            f"En la dificultad {d['name']} "
+            f"tienes que adivinar entre {d['numbers']} números, "
+            f"pero tendrás un multiplicador de puntaje de {d['bonus']}x"
+        )
 
 
 def select_difficulty():
@@ -65,8 +69,13 @@ def set_pc_number(diff):
 
 
 def get_result(pc_number, user_number, diff):
-    # para obtener un porcentaje de distancias necesito dividir el más chico por el más grande
-    division = user_number / pc_number if user_number < pc_number else pc_number / user_number
+    """
+    para obtener un porcentaje de distancias
+    necesito dividir el más chico por el más grande
+    """
+    division = (user_number / pc_number) \
+        if user_number < pc_number else pc_number / user_number
+
     percentage_btw = division * 100
     score = 0
     for s in score_by_prob:
@@ -87,7 +96,10 @@ def loose(pc_number):
 def win(result, pc_number):
     global current_score
     current_score += result['score']
-    print(f"¡Te has acercado con una probabilidad del {result['prob']}% y un score de {result['score']}!")
+    print(
+        f"¡Te has acercado con una probabilidad del {result['prob']}% "
+        f"y un score de {result['score']}!"
+    )
     print(f"El número de la PC era {pc_number}")
     print(f"Tu puntaje actual es: {current_score}")
 
@@ -108,7 +120,12 @@ def play():
 
     while current_life > 0:
         pc_number = set_pc_number(current_difficulty)
-        user_number = int(input(f"Adivina el número que estoy pensando (1 al {current_difficulty['numbers']}): "))
+        user_number = int(
+            input(
+                f"Adivina el número que estoy pensando "
+                f"(1 al {current_difficulty['numbers']}): "
+            )
+        )
         result = get_result(pc_number, user_number, current_difficulty)
         if result['score'] == 0:
             loose(pc_number)

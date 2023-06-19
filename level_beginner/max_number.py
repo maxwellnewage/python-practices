@@ -1,5 +1,6 @@
 """
-Definir una función max_num() que tome como argumento dos números y devuelva el mayor de ellos.
+Definir una función max_num() que tome como argumento
+dos números y devuelva el mayor de ellos.
 """
 
 
