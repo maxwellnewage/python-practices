@@ -7,6 +7,20 @@ Si estás interesado/a en aprender Python de cero, te recomiendo que entres a mi
 ## Puesta en marcha
 Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/), un IDE gratuito y sencillo de usar. Simplemente puedes clonar este repositorio y abrirlo en el editor. Luego debes entrar a algun script que quieras correr, y darle al botón Run.
 
+## Buenas prácticas
+Se implementó Flake8 en el proyecto, el cual se puede correr mediante este comando:
+> flake8 --exclude=venv
+
+Se excluye el entorno virtual para enfocarnos sólo en el proyecto actual.
+Posibles warnings que reporta Flake8:
+> .\level_beginner\filtrar_palabras.py:2:40: W291 trailing whitespace
+
+> .\level_advance\regex\is_phone_number.py:35:80: E501 line too long (86 > 79 characters)
+
+> .\level_advance\regex\detect_start_end_str.py:28:44: W292 no newline at end of file
+
+De momento todas las advertencias fueron resueltas, pero en el caso de detectar nuevas, por favor abrir un issue.
+
 ## Ejercicios
 - [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como estructuras de datos, control de flujo, operadores lógicos y aritméticos, manipulación de archivos, entre otros.
 - [Nivel Intermedio](level_intermediate/README.md): Principios aplicados de la programación orientada a objetos.
