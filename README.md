@@ -13,13 +13,14 @@ Ahora también se preparó para [Visual Studio Code](https://code.visualstudio.c
 Clonar el Proyecto; y una vez dentro, crear y activar el entorno virtual:
 
 > python -m venv venv
+
 > .\venv\Scripts\activate
 
 Instalar las dependencias
 
 > pip install -r requirements.txt
 
-## Buenas prácticas
+## Flake8
 Se implementó Flake8 en el proyecto, el cual se puede correr mediante este comando:
 > flake8 --exclude=venv
 
@@ -31,7 +32,7 @@ Posibles warnings que reporta Flake8:
 
 > .\level_advance\regex\detect_start_end_str.py:28:44: W292 no newline at end of file
 
-De momento todas las advertencias fueron resueltas, pero en el caso de detectar nuevas, por favor abrir un issue.
+De momento todas las advertencias fueron resueltas, pero en el caso de detectar nuevas, por favor abrir un issue. Si querés saber más al respecto, te dejo un [artículo](https://dev.to/maxwellnewage/diario-de-python-17-un-paseo-por-flake8-33do) donde hablo de este linter.
 
 ## Ejercicios
 - [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como estructuras de datos, control de flujo, operadores lógicos y aritméticos, manipulación de archivos, entre otros.
