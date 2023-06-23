@@ -37,3 +37,4 @@
 - [docstrings.py](docstrings.py): Ejemplos de docstrings.
 - [sphinx](sphinx/source/main.py): Ejemplo de implementación con Sphinx.
 - [shelf_file.py](shelf_file.py): Manipulación de archivos con shelve.
+- [exceptions.py](exceptions.py): Manejo de excepciones.
