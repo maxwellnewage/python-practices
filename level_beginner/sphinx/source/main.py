@@ -1,6 +1,8 @@
 """
 Clase abstracta Vehicle
 """
+
+
 class Vehicle:
     def stop_engine() -> str:
         """Metodo para detener el motor
@@ -14,9 +16,12 @@ class Vehicle:
         """
         pass
 
+
 """
-Clase Car 
+Clase Car
 """
+
+
 class Car(Vehicle):
     def stop_engine() -> str:
         return "stopping..."

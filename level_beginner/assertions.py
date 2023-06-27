@@ -2,6 +2,7 @@
 Manejo de assertions
 """
 
+
 def switch_lights(intersection):
     for key in intersection.keys():
         if intersection[key] == 'green':
@@ -11,6 +12,7 @@ def switch_lights(intersection):
         elif intersection[key] == 'red':
             intersection[key] = 'green'
     assert 'red' in intersection.values(), 'Never is red!'
+
 
 if __name__ == '__main__':
     # AssertionError: Never is red!
