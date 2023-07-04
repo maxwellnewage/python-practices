@@ -69,6 +69,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 ### Sitios Web
 - [Employee Manager](https://github.com/maxwellnewage/udemy-django-employee-manager): Sistema de Empleados estilo ABM (desarrollado en Django)
 - [Hero Game](https://github.com/maxwellnewage/udemy-django-hero-game): CRUD de un juego de rol con Players, Enemies, Shop y Weapons (desarrollado en Django y Django-Rest-API)
+- [Web Scrapping Selenium](projects/selenium_app/main.py): Encontrar el valor en dólares de un libro en Amazon de tapa blanda.
 
 ## Inspiración
 Algunos ejercicios y proyectos están inspirados (solo en su consigna, la solución es de mi autoría) en las siguientes fuentes:
