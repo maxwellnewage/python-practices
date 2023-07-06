@@ -62,6 +62,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Battle Rol Game System](projects/battle_rol_game_system/main.py): Juego de rol donde podemos crear un player y luchar contra un enemigo al azar.
 - [Excel Cleaner](projects/excel_cleaner/main.py): Modifica un archivo xlsx sin corromper el estilo.
 - [Calculadora](projects/calculadora): Calculadora que avanza progresivamente en sus versiones a medida que se aprenden los fundamentos en Python.
+- [Email Sender](projects/email_sender): Envía emails de gmail mediante autenticación por token.
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
