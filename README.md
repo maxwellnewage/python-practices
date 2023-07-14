@@ -64,6 +64,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Calculadora](projects/calculadora): Calculadora que avanza progresivamente en sus versiones a medida que se aprenden los fundamentos en Python.
 - [Email Sender](projects/email_sender): Envía emails de gmail mediante autenticación por token.
 - [Love Calculator](projects/love_calculator.py): Calcula el amor ideal según el nombre de las personas.
+- [Rock, Paper, Scissors v2](https://replit.com/@maxwellnewage/python-rock-paper-scissors-game): Versión más bonita del anterior proyecto.
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
