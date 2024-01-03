@@ -66,6 +66,8 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Love Calculator](projects/love_calculator.py): Calcula el amor ideal según el nombre de las personas.
 - [Rock, Paper, Scissors v2](https://replit.com/@maxwellnewage/python-rock-paper-scissors-game): Versión más bonita del anterior proyecto.
 - [AWS S3 CRUD](projects/aws_s3_crud/main.py): Métodos para crear y eliminar buckets, así como también subir y bajar archivos.
+- [Hangman](projects/hangman.py): Juego del ahorcado.
+
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
