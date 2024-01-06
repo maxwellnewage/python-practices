@@ -67,6 +67,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Rock, Paper, Scissors v2](https://replit.com/@maxwellnewage/python-rock-paper-scissors-game): Versión más bonita del anterior proyecto.
 - [AWS S3 CRUD](projects/aws_s3_crud/main.py): Métodos para crear y eliminar buckets, así como también subir y bajar archivos.
 - [Hangman](projects/hangman.py): Juego del ahorcado.
+- [Caesar Cipher](projects/caesar_cipher.py): Cifrado de Caesar con encode, decode y shift personalizado.
 
 
 ### APIs
