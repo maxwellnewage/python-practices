@@ -70,6 +70,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Caesar Cipher](projects/caesar_cipher.py): Cifrado de Caesar con encode, decode y shift personalizado.
 - [Blackjack](projects/blackjack.py): Juego de cartas Blackjack.
 - [Random Walk](projects/random_walk.py): Turtle random walk.
+- [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
