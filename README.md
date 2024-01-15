@@ -49,13 +49,9 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
 - [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
 - [Tip Calculator App](projects/tip_calculator_app.py): Calculadora de propinas.
-- [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
 - [Random Password Generator](projects/random_password_generator.py): Generador de contraseñas.
 - [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
 - [Python File Explorer](projects/file_manager.py): Explorador de archivos.
-- [Music Player](projects/music_player/main.py): Reproductor de música.
-- [YouTube Video Downloader](projects/yt_video_downloader.py): Descarga videos desde YouTube.
-- [Desktop Notifier App](projects/desktop_notifier_app/main.py): Aplicación que genera notificaciones en el sistema operativo.
 - [Random Wikipedia Article](projects/rand_wiki_article.py): Devuelve un artículo aleatorio de Wikipedia.
 - [Instagram Photo Downloader - Deprecado](projects/ig_photo_downloader_deprecated.py): Descarga imágenes publicadas en Instagram. (Deprecado)
 - [Instagram Info Downloader](projects/ig_info_downloader.py): Descarga información publicada en Instagram.
@@ -74,6 +70,12 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Turtle Race](projects/turtle_race/main.py): Turtle Race.
 - [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
 - [Pong](projects/pong/main.py): Pong game on Turtle.
+
+### Interfaz Gráfica (GUI)
+- [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
+- [YouTube Video Downloader](projects/yt_video_downloader.py): Descarga videos desde YouTube.
+- [Desktop Notifier App](projects/desktop_notifier_app/main.py): Aplicación que genera notificaciones en el sistema operativo.
+- [Music Player](projects/music_player/main.py): Reproductor de música.
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
