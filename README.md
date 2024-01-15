@@ -73,6 +73,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
 - [Turtle Race](projects/turtle_race/main.py): Turtle Race.
 - [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
+- [Pong](projects/pong/main.py): Pong game on Turtle.
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
