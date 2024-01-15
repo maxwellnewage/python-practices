@@ -41,41 +41,43 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [HackerRank](hackerrank/README.md): Challenges seleccionados de [HackerRank](https://www.hackerrank.com/).
 
 ## Proyectos
-### Consola
+### Apps de Consola
 - [Detector de palabras censuradas](projects/bad_word_detector.py): Lee una frase de la consola y la censura.
 - [Plazo Fijo](projects/plazo_fijo.py): Define cuanto se puede ganar mensualmente con una determinada TNA (tasa nominal anual) y un monto.
 - [Anime Finder](projects/anime_finder.py): Buscador de anime que se conecta con la API Jikan.
-- [Dice Rolling Simulator](projects/dice_rolling_simulator.py): Simulador de tirada de dados.
-- [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
-- [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
 - [Tip Calculator App](projects/tip_calculator_app.py): Calculadora de propinas.
 - [Random Password Generator](projects/random_password_generator.py): Generador de contraseñas.
-- [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
 - [Python File Explorer](projects/file_manager.py): Explorador de archivos.
 - [Random Wikipedia Article](projects/rand_wiki_article.py): Devuelve un artículo aleatorio de Wikipedia.
 - [Instagram Photo Downloader - Deprecado](projects/ig_photo_downloader_deprecated.py): Descarga imágenes publicadas en Instagram. (Deprecado)
 - [Instagram Info Downloader](projects/ig_info_downloader.py): Descarga información publicada en Instagram.
-- [Battle Rol Game System](projects/battle_rol_game_system/main.py): Juego de rol donde podemos crear un player y luchar contra un enemigo al azar.
 - [Excel Cleaner](projects/excel_cleaner/main.py): Modifica un archivo xlsx sin corromper el estilo.
 - [Calculadora](projects/calculadora): Calculadora que avanza progresivamente en sus versiones a medida que se aprenden los fundamentos en Python.
 - [Email Sender](projects/email_sender): Envía emails de gmail mediante autenticación por token.
 - [Love Calculator](projects/love_calculator.py): Calcula el amor ideal según el nombre de las personas.
-- [Rock, Paper, Scissors v2](https://replit.com/@maxwellnewage/python-rock-paper-scissors-game): Versión más bonita del anterior proyecto.
 - [AWS S3 CRUD](projects/aws_s3_crud/main.py): Métodos para crear y eliminar buckets, así como también subir y bajar archivos.
-- [Hangman](projects/hangman.py): Juego del ahorcado.
 - [Caesar Cipher](projects/caesar_cipher.py): Cifrado de Caesar con encode, decode y shift personalizado.
-- [Blackjack](projects/blackjack.py): Juego de cartas Blackjack.
 - [Random Walk](projects/random_walk.py): Turtle random walk.
 - [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
-- [Turtle Race](projects/turtle_race/main.py): Turtle Race.
 - [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
-- [Pong](projects/pong/main.py): Pong game on Turtle.
 
 ### Interfaz Gráfica (GUI)
 - [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
 - [YouTube Video Downloader](projects/yt_video_downloader.py): Descarga videos desde YouTube.
 - [Desktop Notifier App](projects/desktop_notifier_app/main.py): Aplicación que genera notificaciones en el sistema operativo.
 - [Music Player](projects/music_player/main.py): Reproductor de música.
+
+### Videojuegos
+- [Pong](projects/pong/main.py): Pong game on Turtle.
+- [Turtle Race](projects/turtle_race/main.py): Turtle Race.
+- [Blackjack](projects/blackjack.py): Juego de cartas Blackjack.
+- [Hangman](projects/hangman.py): Juego del ahorcado.
+- [Rock, Paper, Scissors v2](https://replit.com/@maxwellnewage/python-rock-paper-scissors-game): Versión más bonita del anterior proyecto.
+- [Battle Rol Game System](projects/battle_rol_game_system/main.py): Juego de rol donde podemos crear un player y luchar contra un enemigo al azar.
+- [Snake Game](projects/snake_game/main.py): Juego de la serpiente.
+- [Dice Rolling Simulator](projects/dice_rolling_simulator.py): Simulador de tirada de dados.
+- [Number Guessing](projects/number_guessing.py): Adivina el número que estoy pensando.
+- [Rock, Paper, Scissors](projects/rock_paper_scissors.py): El famoso juego "Piedra, Papel o Tijeras".
 
 ### APIs
 - [Pizza Delivery API](https://github.com/maxwellnewage/fastapi-pizza-delivery-api): API desarrollada en FastAPI basada en un sistema de gestión de una pizzería.
