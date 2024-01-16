@@ -63,6 +63,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
 - [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
 - [Weather](projects/weather/main.py): Pandas & CSV Lib implementation reading a weather dataset.
+- [Name the states]: Juego para adivinar los estados de USA basado en un dataset.
 
 ### Interfaz Gráfica (GUI)
 - [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
