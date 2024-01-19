@@ -73,6 +73,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Desktop Notifier App](projects/desktop_notifier_app/main.py): Aplicación que genera notificaciones en el sistema operativo.
 - [Music Player](projects/music_player/main.py): Reproductor de música.
 - [Mile to Km Converter](projects/mile_km_converter.py): Mile to Km Converter.
+- [Pomodoro](projects/pomodoro/main.py): Pomodoro App.
 
 ### Videojuegos
 - [Pong](projects/pong/main.py): Pong game on Turtle.
