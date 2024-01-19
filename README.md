@@ -65,13 +65,14 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Weather](projects/weather/main.py): Pandas & CSV Lib implementation reading a weather dataset.
 - [Name the states](projects/name_the_states/main.py): Juego para adivinar los estados de USA basado en un dataset.
 - [Nato Alphabet](projects/nato/main.py): Nato Alphabet.
-- [Mile to Km Converter](projects/mile_km_converter.py): Mile to Km Converter.
+
 
 ### Interfaz Gráfica (GUI)
 - [Speed Typing Test](projects/speed_typing_test.py): Detecta que tan rápido escribes.
 - [YouTube Video Downloader](projects/yt_video_downloader.py): Descarga videos desde YouTube.
 - [Desktop Notifier App](projects/desktop_notifier_app/main.py): Aplicación que genera notificaciones en el sistema operativo.
 - [Music Player](projects/music_player/main.py): Reproductor de música.
+- [Mile to Km Converter](projects/mile_km_converter.py): Mile to Km Converter.
 
 ### Videojuegos
 - [Pong](projects/pong/main.py): Pong game on Turtle.
