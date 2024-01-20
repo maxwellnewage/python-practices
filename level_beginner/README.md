@@ -41,3 +41,4 @@
 - [assertions.py](assertions.py): Manejo de assertions.
 - [logs.py](logs.py): Implementación del módulo logging.
 - [list comprehensions](list_comprehensions.py): Ejemplos de List Comprehensions.
+- [json writer](json_writer.py): Ejemplos de JSON.
