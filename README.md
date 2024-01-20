@@ -59,11 +59,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Love Calculator](projects/love_calculator.py): Calcula el amor ideal según el nombre de las personas.
 - [AWS S3 CRUD](projects/aws_s3_crud/main.py): Métodos para crear y eliminar buckets, así como también subir y bajar archivos.
 - [Caesar Cipher](projects/caesar_cipher.py): Cifrado de Caesar con encode, decode y shift personalizado.
-- [Random Walk](projects/random_walk.py): Turtle random walk.
-- [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
-- [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
 - [Weather](projects/weather/main.py): Pandas & CSV Lib implementation reading a weather dataset.
-- [Name the states](projects/name_the_states/main.py): Juego para adivinar los estados de USA basado en un dataset.
 - [Nato Alphabet](projects/nato/main.py): Nato Alphabet.
 
 
@@ -74,6 +70,10 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Music Player](projects/music_player/main.py): Reproductor de música.
 - [Mile to Km Converter](projects/mile_km_converter.py): Mile to Km Converter.
 - [Pomodoro](projects/pomodoro/main.py): Pomodoro App.
+- [Name the states](projects/name_the_states/main.py): Juego para adivinar los estados de USA basado en un dataset.
+- [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
+- [Random Walk](projects/random_walk.py): Turtle random walk.
+- [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
 
 ### Videojuegos
 - [Pong](projects/pong/main.py): Pong game on Turtle.
