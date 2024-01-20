@@ -74,6 +74,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Etch a Sketch](projects/etch_a_sketch.py): Etch a Sketch.
 - [Random Walk](projects/random_walk.py): Turtle random walk.
 - [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
+- [Flashy](projects/flashy/main.py): Famoso ejercicio para aprender idiomas con cards.
 
 ### Videojuegos
 - [Pong](projects/pong/main.py): Pong game on Turtle.
