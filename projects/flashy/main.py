@@ -7,9 +7,14 @@ import pandas as pd
 from random import choice
 
 BACKGROUND_COLOR = "#B1DDC6"
-data = pd.read_csv("data/french_words.csv")
-to_learn = data.to_dict(orient="records")
 current_card = {}
+
+try:
+    data = pd.read_csv("data/words_to_learn.csv")
+except FileNotFoundError:
+    data = pd.read_csv("data/french_words.csv")
+
+to_learn = data.to_dict(orient="records")
 
 
 def next_card():
@@ -20,6 +25,13 @@ def next_card():
     canvas.itemconfig(card_word, text=current_card["French"], fill="black")
     canvas.itemconfig(card_background, image=card_front_img)
     flip_timer = window.after(3000, func=flip_card)
+
+
+def is_known():
+    to_learn.remove(current_card)
+    data_to_learn = pd.DataFrame(to_learn)
+    data_to_learn.to_csv("data/words_to_learn.csv", index=False)
+    next_card()
 
 
 def flip_card():
@@ -49,7 +61,7 @@ if __name__ == '__main__':
     unknown_btn.grid(row=1, column=0)
 
     check_image = PhotoImage(file="images/right.png")
-    known_btn = Button(image=check_image, highlightthickness=0, command=next_card)
+    known_btn = Button(image=check_image, highlightthickness=0, command=is_known)
     known_btn.grid(row=1, column=1)
 
     next_card()
