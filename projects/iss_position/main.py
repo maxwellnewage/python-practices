@@ -19,7 +19,7 @@ def send_email(lat, lng):
     email_message['Subject'] = "Informe de Posición ISS"
     email_message.set_content(f"""
         Informe posicional.
-        
+
         ISS está en la latitud {lat}, longitud {lng}
         """)
 

@@ -8,7 +8,10 @@ t.bgpic("blank_states_img.gif")
 guessed_states = []
 
 while len(guessed_states) < 50:
-    answer_state = screen.textinput("Guess the state", "What's another state's name?").lower()
+    answer_state = screen.textinput(
+        "Guess the state",
+        "What's another state's name?"
+    ).lower()
 
     states = pd.read_csv("50_states.csv")
     guess_state = states[states.state.str.lower() == answer_state.lower()]
