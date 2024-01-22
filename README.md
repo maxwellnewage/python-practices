@@ -75,6 +75,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Random Walk](projects/random_walk.py): Turtle random walk.
 - [Dot Paint Generator](projects/dot_paint_generator/main.py): Dot Paint Generator on Turtle.
 - [Flashy](projects/flashy/main.py): Famoso ejercicio para aprender idiomas con cards.
+- [ISS Position App](projects/iss_position/main.py): ISS Position App.
 
 ### Videojuegos
 - [Pong](projects/pong/main.py): Pong game on Turtle.
