@@ -4,21 +4,11 @@ https://www.youtube.com/watch?v=g_j6ILT-X0k
 """
 
 
-import os
 from email.message import EmailMessage
-from dotenv import load_dotenv
 from level_intermediate import email
-
+from projects.config.email_config import SENDER_EMAIL, RECEIVER_EMAIL, SENDER_TOKEN
 
 if __name__ == '__main__':
-    # Cargar variables de entorno desde el archivo .env en el mismo directorio
-    load_dotenv()
-
-    # constantes
-    SENDER_EMAIL = os.getenv('SENDER_EMAIL')
-    RECEIVER_EMAIL = os.getenv('RECEIVER_EMAIL')
-    SENDER_TOKEN = os.getenv('SENDER_TOKEN')
-
     # armo el mensaje del email
     email_message = EmailMessage()
     email_message['From'] = SENDER_EMAIL
@@ -33,4 +23,9 @@ if __name__ == '__main__':
     Saludos!
     """)
 
-    email.send(SENDER_EMAIL, RECEIVER_EMAIL, SENDER_TOKEN, email_message)
+    email.send(
+        SENDER_EMAIL,
+        RECEIVER_EMAIL,
+        SENDER_TOKEN,
+        email_message
+    )
