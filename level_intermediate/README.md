@@ -5,3 +5,4 @@
 - [person_descriptor.py](person_descriptor.py): Crear una clase persona que se pueda describir con __str__.
 - [calculadora_static.py](calculadora_static.py): Crear la calculadora del primer ejemplo, pero con métodos estáticos.
 - [calculadora_polimorfismo.py](calculadora_polimorfismo.py): Armar una calculadora que sobreescriba los métodos de la primera.
+- [email.py](email.py): Función para enviar emails. Demo funcional en [email sender](/projects/email_sender/main.py). 
