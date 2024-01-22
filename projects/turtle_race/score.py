@@ -10,4 +10,3 @@ class Score(Turtle):
 
     def write_result(self, text):
         self.write(text, align="center", font=("Helvetica", 20, "normal"))
-

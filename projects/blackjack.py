@@ -59,7 +59,7 @@ while not is_game_over:
     if user_score == 0 or pc_score == 0 or user_score > 21:
         is_game_over = True
     else:
-        user_decision = input("Type 'y' to get another card, type 'n' to pass: ")
+        user_decision = input("'y' to get another card, 'n' to pass: ")
         if user_decision == 'y':
             user_cards.append(deal_card())
         else:

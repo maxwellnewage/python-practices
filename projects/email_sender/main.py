@@ -6,7 +6,11 @@ https://www.youtube.com/watch?v=g_j6ILT-X0k
 
 from email.message import EmailMessage
 from level_intermediate import email
-from projects.config.email_config import SENDER_EMAIL, RECEIVER_EMAIL, SENDER_TOKEN
+from projects.config.email_config import (
+    SENDER_EMAIL,
+    RECEIVER_EMAIL,
+    SENDER_TOKEN
+)
 
 if __name__ == '__main__':
     # armo el mensaje del email

@@ -2,7 +2,7 @@
 Mile to Km converter
 """
 
-from tkinter import *
+from tkinter import Tk, Entry, Label, Button
 
 
 def miles_to_km():

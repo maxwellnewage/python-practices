@@ -1,5 +1,4 @@
-import random
-from turtle import Turtle, Screen
+from turtle import Screen
 from score import Score
 from race import Race
 
@@ -18,11 +17,3 @@ if user_bet:
     race.move_turtles(user_bet, text_result, text_winner_turtle)
 
 screen.exitonclick()
-
-
-
-
-
-
-
-

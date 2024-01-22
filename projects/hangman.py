@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
         if not match:
             lives -= 1
-            print(f"Wrong!")
+            print("Wrong!")
 
         if lives <= 0:
             print("You lose...")

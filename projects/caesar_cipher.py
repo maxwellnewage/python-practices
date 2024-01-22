@@ -20,7 +20,7 @@ def caesar(plain_text, shift_amount, direction):
 
 
 while True:
-    direction = input("Type '(e)ncode' to encrypt, type '(d)ecode' to decrypt:\n")
+    direction = input("'(e)ncode' to encrypt, '(d)ecode' to decrypt:\n")
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
     shift = shift % 26
@@ -30,5 +30,3 @@ while True:
     keep = input("Continue? (y/n): ").lower()
     if keep == "n":
         break
-
-

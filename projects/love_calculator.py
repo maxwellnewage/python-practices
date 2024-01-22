@@ -19,7 +19,7 @@ def true_love_score(true, love):
 def get_score_msg(love_score):
     if love_score < 10 or love_score > 90:
         print(f"Love score is nice! ({love_score})")
-    elif love_score >= 40 and love_score <= 50:
+    elif 40 <= love_score <= 50:
         print(f"Love score is alright ({love_score})")
     else:
         print(f"Love score is very low... ({love_score})")

@@ -5,7 +5,11 @@ import requests
 
 from email.message import EmailMessage
 from level_intermediate import email
-from projects.config.email_config import SENDER_EMAIL, RECEIVER_EMAIL, SENDER_TOKEN
+from projects.config.email_config import (
+    SENDER_EMAIL,
+    RECEIVER_EMAIL,
+    SENDER_TOKEN
+)
 
 
 def send_email(lat, lng):
