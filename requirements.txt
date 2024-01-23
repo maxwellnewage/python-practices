@@ -42,3 +42,6 @@ pytube~=12.1.0
 numpy~=1.26.3
 boto3~=1.28.84
 pandas~=2.1.4
+future~=0.18.3
+geocoder~=1.38.1
+decouple~=0.0.7

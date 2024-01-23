@@ -5,7 +5,7 @@ import requests
 
 from email.message import EmailMessage
 from level_intermediate import email
-from projects.config.email_config import (
+from projects.config.globals import (
     SENDER_EMAIL,
     RECEIVER_EMAIL,
     SENDER_TOKEN

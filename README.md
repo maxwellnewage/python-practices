@@ -61,6 +61,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Caesar Cipher](projects/caesar_cipher.py): Cifrado de Caesar con encode, decode y shift personalizado.
 - [Weather](projects/weather/main.py): Pandas & CSV Lib implementation reading a weather dataset.
 - [Nato Alphabet](projects/nato/main.py): Nato Alphabet.
+- [OpenWeather App](projects/open_weather.py): OpenWeather App.
 
 
 ### Interfaz Gráfica (GUI)
