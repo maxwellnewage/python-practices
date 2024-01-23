@@ -3,32 +3,22 @@ ISS Position App
 """
 import requests
 
-from email.message import EmailMessage
 from level_intermediate import email
-from projects.config.globals import (
-    SENDER_EMAIL,
-    RECEIVER_EMAIL,
-    SENDER_TOKEN
-)
 
 
 def send_email(lat, lng):
-    email_message = EmailMessage()
-    email_message['From'] = SENDER_EMAIL
-    email_message['To'] = RECEIVER_EMAIL
-    email_message['Subject'] = "Informe de Posición ISS"
-    email_message.set_content(f"""
-        Informe posicional.
+    msg_body = f"""
+    Informe posicional.
 
-        ISS está en la latitud {lat}, longitud {lng}
-        """)
+    ISS está en la latitud {lat}, longitud {lng}
+    """
 
-    email.send(
-        SENDER_EMAIL,
-        RECEIVER_EMAIL,
-        SENDER_TOKEN,
-        email_message
+    email_message = email.build_message(
+        "Informe de Posición ISS",
+        msg_body
     )
+
+    email.send(email_message)
 
 
 if __name__ == '__main__':
