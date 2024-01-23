@@ -62,6 +62,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Weather](projects/weather/main.py): Pandas & CSV Lib implementation reading a weather dataset.
 - [Nato Alphabet](projects/nato/main.py): Nato Alphabet.
 - [OpenWeather App](projects/open_weather.py): OpenWeather App.
+- [Stock Price Movement Manager](projects/stock_price_movement_manager.py): Stock Price Movement Manager.
 
 
 ### Interfaz Gráfica (GUI)
