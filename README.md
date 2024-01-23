@@ -104,3 +104,4 @@ Algunos ejercicios y proyectos están inspirados (solo en su consigna, la soluci
 - [Python Tutorial for Beginners](https://youtu.be/B9nFMZIYQl0)
 - [learnpython](https://www.learnpython.org/)
 - [upgrad](https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/)
+- [Udemy Course: 100 days of code](https://www.udemy.com/course/100-days-of-code/)
