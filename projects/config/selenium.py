@@ -12,3 +12,6 @@ __options.binary_location = CHROMIUM_BINARY_PATH
 driver = webdriver.Chrome(
     options=__options
 )
+
+# maximizo la ventana
+driver.maximize_window()
