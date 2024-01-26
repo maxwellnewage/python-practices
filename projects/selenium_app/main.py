@@ -3,20 +3,21 @@ Web Scrapping con Selenium
 https://youtu.be/SPM1tm2ZdK4
 """
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
 import time
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from projects.config.globals import CHROMIUM_BINARY_PATH
 
 if __name__ == '__main__':
     options = Options()
     options.add_experimental_option("detach", True)
 
+    # especifica un directorio de la instalación de Chrome
+    options.binary_location = CHROMIUM_BINARY_PATH
+
     # inicializo el driver de Chrome
     driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
         options=options
     )
 

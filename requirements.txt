@@ -32,7 +32,6 @@ virtualenv==20.21.0
 webdriver-manager==3.8.6
 
 pygame~=2.1.2
-selenium~=4.10.0
 openpyxl~=3.1.2
 plyer~=2.0.0
 bs4~=0.0.1
@@ -45,3 +44,4 @@ pandas~=2.1.4
 future~=0.18.3
 geocoder~=1.38.1
 decouple~=0.0.7
+selenium~=4.17.2

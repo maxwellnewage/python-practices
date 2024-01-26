@@ -17,3 +17,6 @@ ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')
 
 # https://newsapi.org/
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
+
+# Chrome Binary Path
+CHROMIUM_BINARY_PATH = os.getenv('CHROMIUM_BINARY_PATH')
