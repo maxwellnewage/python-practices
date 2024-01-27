@@ -20,3 +20,7 @@ NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
 # Chrome Binary Path
 CHROMIUM_BINARY_PATH = os.getenv('CHROMIUM_BINARY_PATH')
+
+# LinkedIn login
+LINKEDIN_USER = os.getenv('LINKEDIN_USER')
+LINKEDIN_PASSWORD = os.getenv('LINKEDIN_PASSWORD')

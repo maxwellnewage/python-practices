@@ -16,4 +16,4 @@ if __name__ == '__main__':
 
     print(article.text)
 
-    driver.close()
+    # driver.close()

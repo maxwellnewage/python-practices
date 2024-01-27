@@ -1,17 +1,22 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium_stealth import stealth
 from projects.config.globals import CHROMIUM_BINARY_PATH
 
-__options = Options()
-__options.add_experimental_option("detach", True)
+__options = webdriver.ChromeOptions()
 
-# especifica un directorio de la instalación de Chrome
+__options.add_argument("start-maximized")
+__options.add_experimental_option("excludeSwitches", ["enable-automation"])
+__options.add_experimental_option('useAutomationExtension', False)
+__options.add_experimental_option("detach", True)
 __options.binary_location = CHROMIUM_BINARY_PATH
 
-# inicializo el driver de Chrome
-driver = webdriver.Chrome(
-    options=__options
-)
+driver = webdriver.Chrome(options=__options)
 
-# maximizo la ventana
-driver.maximize_window()
+stealth(driver,
+        languages=["en-US", "en"],
+        vendor="Google Inc.",
+        platform="Win32",
+        webgl_vendor="Intel Inc.",
+        renderer="Intel Iris OpenGL Engine",
+        fix_hairline=True,
+        )
