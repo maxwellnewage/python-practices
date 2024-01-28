@@ -99,7 +99,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [Hero Game](https://github.com/maxwellnewage/udemy-django-hero-game): CRUD de un juego de rol con Players, Enemies, Shop y Weapons (desarrollado en Django y Django-Rest-API)
 - [YCombinator News Scrapper](projects/scrapper_ycombinator.py): YCombinator News Scrapper.
 - [Wikipedia Finder](/projects/wikipedia_finder.py): Busca un artículo de Wikipedia con Selenium.
-- [LinkedIn Tracker](/projects/linkedin_tracker): Track de información sobre perfiles según búsqueda.
+- [LinkedIn Tracker](/projects/linkedin_tracker/main.py): Track de información sobre perfiles según búsqueda.
 
 ## Inspiración
 Algunos ejercicios y proyectos están inspirados (solo en su consigna, la solución es de mi autoría) en las siguientes fuentes:
