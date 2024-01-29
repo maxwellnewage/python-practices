@@ -12,6 +12,11 @@ from projects.config.globals import LINKEDIN_USER, LINKEDIN_PASSWORD
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
+LOGIN_WAIT_TIME = 60 * 5  # 5 minutos
+PAGE_LIMIT = 5
+TERM = "python"
+ROLE = "python"
+
 
 def login():
     driver.get("https://www.linkedin.com/uas/login?")
@@ -20,7 +25,7 @@ def login():
     driver.find_element(By.ID, "password").send_keys(LINKEDIN_PASSWORD)
     driver.find_element(By.CSS_SELECTOR, '[data-litms-control-urn="login-submit"]').click()
 
-    wait = WebDriverWait(driver, 60 * 5)
+    wait = WebDriverWait(driver, LOGIN_WAIT_TIME)
     wait.until(ec.url_matches("https://www.linkedin.com/feed/"))
 
 
@@ -36,11 +41,6 @@ def auto_publish():
     time.sleep(2)
 
     driver.find_element(By.CSS_SELECTOR, ".share-box_actions button").click()
-
-
-PAGE_LIMIT = 5
-TERM = "sap%20btp"
-ROLE = "SAP"
 
 
 def get_profile_info(page, profile_list):
