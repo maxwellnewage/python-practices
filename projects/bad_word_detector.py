@@ -21,4 +21,5 @@ def phrase_filter(phrase: str) -> str:
     return final_words
 
 
-print(phrase_filter("Me gusta la manzana porque se parece a una avenida"))
+if __name__ == '__main__':
+    print(phrase_filter("Me gusta la manzana porque se parece a una avenida"))
