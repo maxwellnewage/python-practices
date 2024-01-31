@@ -45,3 +45,4 @@ future~=0.18.3
 geocoder~=1.38.1
 decouple~=0.0.7
 selenium~=4.17.2
+Flask~=3.0.1

@@ -101,6 +101,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [YCombinator News Scrapper](projects/scrapper_ycombinator.py): YCombinator News Scrapper.
 - [Wikipedia Finder](/projects/wikipedia_finder.py): Busca un artículo de Wikipedia con Selenium.
 - [LinkedIn Tracker](/projects/linkedin_tracker/main.py): Track de información sobre perfiles según búsqueda.
+- [Age & Gender Guess by Name](projects/age_gender_guess/main.py): Adivina la edad y el género por el nombre.
 
 ## Inspiración
 Algunos ejercicios y proyectos están inspirados (solo en su consigna, la solución es de mi autoría) en las siguientes fuentes:
