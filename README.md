@@ -64,6 +64,7 @@ De momento todas las advertencias fueron resueltas, pero en el caso de detectar 
 - [OpenWeather App](projects/open_weather.py): OpenWeather App.
 - [Stock Price Movement Manager](projects/stock_price_movement_manager.py): Stock Price Movement Manager.
 - [Speed Calculator Decorator](projects/speed_calc_decorator.py): Speed Calculator Decorator.
+- [Nexo Earn Calculator](projects/nexo_earn_calculator/main.py): Nexo Earn Calculator.
 
 
 ### Interfaz Gráfica (GUI)
