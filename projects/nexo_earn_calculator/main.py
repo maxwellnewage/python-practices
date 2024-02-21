@@ -78,7 +78,7 @@ if __name__ == '__main__':
         print(f'{crypto} | ${round(total, 2)}')
 
     print("-" * len(title))
-    print(f"Total: ${total_earned}")
+    print(f"Total: ${round(total_earned, 2)}")
 
     # muestro un gráfico de intereses
     show_earn_plot(df)
