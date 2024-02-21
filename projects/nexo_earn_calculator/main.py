@@ -67,10 +67,10 @@ if __name__ == '__main__':
     df['Date (UTC)'] = df['Date / Time (UTC)'].dt.strftime('%d/%m/%Y')
 
     # almaceno el rango de fechas
-    start_date, init_date = df['Date (UTC)'].iloc[[0, -1]]
+    start_date, end_date = df['Date (UTC)'].iloc[[0, -1]]
 
     # devuelvo los resultados en consola
-    title = f"Ganancias en el periodo del {start_date} al {init_date}"
+    title = f"Ganancias en el periodo del {start_date} al {end_date}"
     print(title)
     print("-" * len(title))
 
