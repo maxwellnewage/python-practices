@@ -7,8 +7,10 @@ import matplotlib.pyplot as plt
 
 
 def get_rule(df_length):
-    if df_length >= 365:
+    if df_length >= (365 * 2):
         return 'M', 'Mensual'
+    elif df_length >= 365:
+        return 'W', 'Semanal'
     else:
         return 'D', 'Diario'
 
@@ -21,7 +23,7 @@ def show_earn_plot(dataframe):
     grouped_df = date_usd_series.resample(rule[0]).sum()
 
     # armo un gráfico de ganancias en el tiempo
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(15, 6))
     plt.plot(
         grouped_df.index,
         grouped_df.values,
