@@ -7,7 +7,7 @@ Si estás interesado/a en aprender Python de cero, te recomiendo que entres a mi
 También tengo un podcast donde hablo de desarrollo, especialmente en Python. Se llama En Código, y lo puedes encontrar en [Spotify](https://podcasters.spotify.com/pod/show/maxi-burgos9).
 
 ## Puesta en marcha (PyCharm)
-Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/), un IDE gratuito y sencillo de usar. Simplemente puedes clonar este repositorio y abrirlo en el editor. Luego debes entrar a algun script que quieras correr, y darle al botón Run.
+Esto es un proyecto en [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/), un IDE gratuito y sencillo de usar. Puedes clonar este repositorio y abrirlo en el editor. Luego debes entrar a algún script que quieras correr, y darle al botón Run.
 
 ## Puesta en marcha (VSC)
 Ahora también se preparó para [Visual Studio Code](https://code.visualstudio.com/). Para instalarlo debes seguir los siguientes pasos:
@@ -34,7 +34,7 @@ Posibles warnings que reporta Flake8:
 
 > .\level_advance\regex\detect_start_end_str.py:28:44: W292 no newline at end of file
 
-De momento todas las advertencias fueron resueltas, pero en el caso de detectar nuevas, por favor abrir un issue. Si querés saber más al respecto, te dejo un [artículo](https://dev.to/maxwellnewage/diario-de-python-17-un-paseo-por-flake8-33do) donde hablo de este linter.
+De momento todas las advertencias fueron resueltas, pero en el caso de detectar nuevas, por favor abrir un issue. Si quieres saber más al respecto, te dejo un [artículo](https://dev.to/maxwellnewage/diario-de-python-17-un-paseo-por-flake8-33do) donde hablo de este linter.
 
 ## Ejercicios
 - [Nivel Principiante](level_beginner/README.md): Fundamentos de la programación tales como estructuras de datos, control de flujo, operadores lógicos y aritméticos, manipulación de archivos, entre otros.
