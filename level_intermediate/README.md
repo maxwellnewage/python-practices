@@ -1,8 +1,8 @@
-# Nivel Intermedio
-- [calculadora.py](calculadora.py): Crear una calculadora que sume, reste, multiplique y divida
-- [employee_generator.py](employee_generator.py): Crear un programa que genere empleados con nombre, apellido, rol y salario, previamente con una clase Person como padre.
-- [smartphone.py](smartphone.py): Crear un teléfono inteligente que posea distintas características aplicadas con herencia múltiple.
-- [person_descriptor.py](person_descriptor.py): Crear una clase persona que se pueda describir con __str__.
-- [calculadora_static.py](calculadora_static.py): Crear la calculadora del primer ejemplo, pero con métodos estáticos.
-- [calculadora_polimorfismo.py](calculadora_polimorfismo.py): Armar una calculadora que sobreescriba los métodos de la primera.
-- [email.py](email.py): Función para enviar emails. Demo funcional en [email sender](/projects/email_sender/main.py). 
+# Intermediate Level
+- [calculadora.py](calculator.py): Create a calculator that adds, subtracts, multiplies and divides.
+- [employee_generator.py](employee_generator.py): Create a program that generates employees with first name, last name, role and salary, previously with a Person class as parent.
+- [smartphone.py](smartphone.py): Create a smartphone that has different features applied with multiple inheritance.
+- [person_descriptor.py](person_descriptor.py): Create a person class that can be described with __str__.
+- [calculadora_static.py](calculator_static.py): Create the calculator of the first example, but with static methods.
+- [calculadora_polimorfismo.py](calculator_polymorphism.py): Build a calculator that overwrites the methods of the first one.
+- [email.py](email.py): Function to send emails. Working demo in [email sender](/projects/email_sender/main.py). 

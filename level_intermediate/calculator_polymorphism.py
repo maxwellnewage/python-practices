@@ -2,7 +2,7 @@
 Armar una calculadora que sobreescriba los métodos de la primera
 """
 
-from calculadora import Calculadora
+from calculator import Calculadora
 
 
 class CalculadoraDescriptiva(Calculadora):
