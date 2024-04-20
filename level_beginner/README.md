@@ -1,44 +1,44 @@
-# Nivel Principiante
-- [calculadora.py](calculadora.py): Recibir un input almacenado en dos variables enteras que se pueden sumar, restar, multiplicar y dividir.
-- [max_number.py](max_number.py): Definir una función max_num() que tome como argumento dos números y devuelva el mayor de ellos. 
-- [max_number_three.py](max_number_three.py): Definir una función max_num_three(), que tome tres números como argumentos y devuelva el mayor de ellos.
-- [calc_list.py](calc_list.py): Definir una función que calcule la longitud de una lista o una cadena dada. 
-- [vocal.py](vocal.py): Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False. 
-- [inversa.py](inversa.py): Definir una función inversa() que calcule la inversión de una cadena. 
-- [palindromo.py](palindromo.py): Definir una función es_palindromo() que reconoce palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas) 
-- [superposicion.py](superposicion.py): Definir una función superposicion() que tome dos listas y devuelva True si tienen al menos 1 miembro en común o devuelva False de lo contrario.
-- [multi_int.py](multi_int.py): Definir una función generar_n_caracteres() que tome un entero n y devuelva el caracter multiplicado por n.
-- [histograma.py](histograma.py): Definir un histograma procedimiento() que tome una lista de números enteros e imprima un histograma en la pantalla.
-- [max_in_list.py](max_in_list.py): Escribir una función max_in_list() que tome una lista de números y devuelva el mas grande.
-- [mas_larga.py](mas_larga.py): Escribir una función mas_larga() que tome una lista de palabras y devuelva la mas larga.
-- [filtrar_palabras.py](filtrar_palabras.py): Escribir una función filtrar_palabras() que tome una lista de palabras y un entero n, y devuelva las palabras que tengan mas de n caracteres.
-- [tupla_string_uppercase.py](tupla_string_uppercase.py): Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
-- [binary_to_integer.py](binary_to_integer.py): Construir un pequeño programa que convierta números binarios en enteros.
-- [tupla_age_sup.py](tupla_age_sup.py): Definir una tupla con 10 edades de personas. Imprimir la cantidad de personas con edades superiores a 20.
-- [filter_name_list.py](filter_name_list.py): Definir una lista con un conjunto de nombres, imprimir la cantidad que comienzan con una letra seleccionada por el usuario.
-- [count_vowels.py](count_vowels.py): Crear una función contar_vocales()
-- [es_bisiesto.py](es_bisiesto.py): Escriba una función es_bisiesto() que determine si un año determinado es un año bisiesto. Un año bisiesto es divisible por 4, pero no por 100; también por 400.
-- [rima.py](rima.py): Escribe un programa que pida dos palabras y diga si riman o no. Si coinciden las tres últimas letras tiene que decir que riman. Si coinciden sólo las dos últimas tiene que decir que riman un poco y si no, que no riman.
-- [par_impar.py](par_impar.py): Identificar si la suma de los dígitos de un número es par o impar.
-- [multi_table.py](multi_table.py): Para un número N imprimir su tabla de multiplicar.
-- [file_open.py](file_open.py): Crear un archivo y escribir algo dentro seguido de salto de línea. Luego leer la información acumulada.
-- [file_json_colors.py](file_json_colors.py): Leer un archivo JSON de colores y listarlo.
-- [factorial.py](factorial.py): Definir una función que genere un resultado del factorial de un número.
-- [multiple_args.py](multiple_args.py): Definir una función que soporte múltiples argumentos.
-- [kwargs.py](kwargs.py): Crear un filtro que busque personas en un diccionario.
-- [padovan.py](padovan.py): Secuencia de Padovan.
-- [numpy_practices.py](numpy_practices.py): Prácticas en numpy.
-- [list_references.py](list_references.py): Ejemplo que demuestra como funcionan las listas por referencia.
-- [justify.py](justify.py): Se modifica un string para agregar espacios y justificados.
-- [number_7.py](number_7.py): Escribe un programa para calcular el porcentaje de números en un rango dado que contienen el dígito 7.
-- [count_vowels_dict.py](count_vowels_dict.py): Contar vocales de una frase y generar un diccionario con clave en cada vocal.
-- [array_ordering.py](array_ordering.py): Ordenar dos arrays enteros de forma ascendente.
-- [decouple_demo.py](decouple_demo.py): Decouple implementado sobre un directorio custom para leer variables de configuración.
-- [docstrings.py](docstrings.py): Ejemplos de docstrings.
-- [sphinx](sphinx/source/main.py): Ejemplo de implementación con Sphinx.
-- [shelf_file.py](shelf_file.py): Manipulación de archivos con shelve.
-- [exceptions.py](exceptions.py): Manejo de excepciones.
-- [assertions.py](assertions.py): Manejo de assertions.
-- [logs.py](logs.py): Implementación del módulo logging.
-- [list comprehensions](list_comprehensions.py): Ejemplos de List Comprehensions.
-- [json writer](json_writer.py): Ejemplos de JSON.
+# Beginner Level
+- [calculator.py](calculator.py): Receive input stored in two integer variables that can be added, subtracted, multiplied, and divided.
+- [max_number.py](max_number.py): Define a function `max_num()` that takes two numbers as arguments and returns the larger of the two.
+- [max_number_three.py](max_number_three.py): Define a function `max_num_three()`, which takes three numbers as arguments and returns the largest.
+- [calc_list.py](calc_list.py): Define a function that calculates the length of a given list or string.
+- [vocal.py](vocal.py): Write a function that takes a character and returns True if it is a vowel, otherwise returns False.
+- [inversa.py](inversa.py): Define a function `inversa()` that calculates the reversal of a string.
+- [palindromo.py](palindromo.py): Define a function `es_palindromo()` that recognizes palindromes (i.e., words that look the same written backwards).
+- [superposicion.py](superposicion.py): Define a function `superposicion()` that takes two lists and returns True if they have at least one member in common, or False otherwise.
+- [multi_int.py](multi_int.py): Define a function `generar_n_caracteres()` that takes an integer n and returns the character multiplied by n.
+- [histograma.py](histograma.py): Define a procedure `histograma()` that takes a list of integers and prints a histogram on the screen.
+- [max_in_list.py](max_in_list.py): Write a function `max_in_list()` that takes a list of numbers and returns the largest.
+- [mas_larga.py](mas_larga.py): Write a function `mas_larga()` that takes a list of words and returns the longest.
+- [filtrar_palabras.py](filtrar_palabras.py): Write a function `filtrar_palabras()` that takes a list of words and an integer n, and returns the words that have more than n characters.
+- [tupla_string_uppercase.py](tupla_string_uppercase.py): Write a program that asks the user to enter a string. The program evaluates the string and reports how many uppercase letters it has.
+- [binary_to_integer.py](binary_to_integer.py): Build a small program that converts binary numbers into integers.
+- [tupla_age_sup.py](tupla_age_sup.py): Define a tuple with 10 ages of people. Print the number of people older than 20.
+- [filter_name_list.py](filter_name_list.py): Define a list with a set of names, print the number that starts with a letter selected by the user.
+- [count_vowels.py](count_vowels.py): Create a function `count_vowels()`.
+- [es_bisiesto.py](es_bisiesto.py): Write a function `es_bisiesto()` that determines whether a given year is a leap year. A leap year is divisible by 4, but not by 100; also by 400.
+- [rima.py](rima.py): Write a program that asks for two words and tells if they rhyme. If the last three letters match, it must say they rhyme. If only the last two letters match, it must say they rhyme a little, and if not, they do not rhyme.
+- [par_impar.py](par_impar.py): Identify whether the sum of the digits of a number is even or odd.
+- [multi_table.py](multi_table.py): For a number N print its multiplication table.
+- [file_open.py](file_open.py): Create a file and write something inside followed by a newline. Then read the accumulated information.
+- [file_json_colors.py](file_json_colors.py): Read a JSON file of colors and list them.
+- [factorial.py](factorial.py): Define a function that generates a result from the factorial of a number.
+- [multiple_args.py](multiple_args.py): Define a function that supports multiple arguments.
+- [kwargs.py](kwargs.py): Create a filter to look for people in a dictionary.
+- [padovan.py](padovan.py): Padovan sequence.
+- [numpy_practices.py](numpy_practices.py): Practices in numpy.
+- [list_references.py](list_references.py): Example demonstrating how lists work by reference.
+- [justify.py](justify.py): Modify a string to add spaces and justify.
+- [number_7.py](number_7.py): Write a program to calculate the percentage of numbers in a given range that contain the digit 7.
+- [count_vowels_dict.py](count_vowels_dict.py): Count vowels of a phrase and generate a dictionary with keys for each vowel.
+- [array_ordering.py](array_ordering.py): Sort two integer arrays in ascending order.
+- [decouple_demo.py](decouple_demo.py): Decouple implemented on a custom directory to read configuration variables.
+- [docstrings.py](docstrings.py): Examples of docstrings.
+- [sphinx](sphinx/source/main.py): Sphinx implementation example.
+- [shelf_file.py](shelf_file.py): File manipulation with shelve.
+- [exceptions.py](exceptions.py): Exception handling.
+- [assertions.py](assertions.py): Handling assertions.
+- [logs.py](logs.py): Logging module implementation.
+- [list comprehensions](list_comprehensions.py): List Comprehensions examples.
+- [json writer](json_writer.py): JSON examples.
