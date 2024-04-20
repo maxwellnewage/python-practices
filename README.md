@@ -28,7 +28,7 @@ Possible warnings reported by Flake8:
 
 > .\level_advance\regex\detect_start_end_str.py:28:44: W292 no newline at end of file
 
-At the moment, all warnings have been resolved, but if new ones are detected, please open an issue. If you want to know more about it, I leave you an [artículo](https://dev.to/maxwellnewage/diario-de-python-17-un-paseo-por-flake8-33do) where I talk about this linter.
+At the moment, all warnings have been resolved, but if new ones are detected, please open an issue. If you want to know more about it, I leave you an [article](https://dev.to/maxwellnewage/diario-de-python-17-un-paseo-por-flake8-33do) where I talk about this linter.
 
 ## Exercises
 - [Beginner Level](level_beginner/README.md): Programming fundamentals such as data structures, flow control, logical and arithmetic operators, file manipulation, among others.
