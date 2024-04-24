@@ -1,6 +1,7 @@
 # Advanced level
 - [decorator.py](decorator.py): Create a function that adds two numbers using a decorator.
 - [design_pattern_builder.py](design_pattern_builder.py): Applying the Builder design pattern.
+- [map_demo.py](map_demo.py): Demos of map.
 
 
 ## Regular Expressions
