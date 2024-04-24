@@ -59,6 +59,7 @@ At the moment, all warnings have been resolved, but if new ones are detected, pl
 - [Stock Price Movement Manager](projects/stock_price_movement_manager.py): Stock Price Movement Manager.
 - [Speed Calculator Decorator](projects/speed_calc_decorator.py): Speed Calculator Decorator.
 - [Nexo Earn Calculator](projects/nexo_earn_calculator/main.py): Nexo Earn Calculator.
+- [Pillow Image Converter](projects/image_converter): Convert any image to jpg with Pillow lib.
 
 ### Graphical User Interface (GUI)
 - [Speed Typing Test](projects/speed_typing_test.py): Detects how fast you type.
