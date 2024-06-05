@@ -48,3 +48,4 @@ selenium~=4.17.2
 Flask~=3.0.1
 matplotlib~=3.8.2
 pillow~=10.2.0
+aiohttp~=3.9.5

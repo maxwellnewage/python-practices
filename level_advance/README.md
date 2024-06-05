@@ -2,7 +2,9 @@
 - [decorator.py](decorator.py): Create a function that adds two numbers using a decorator.
 - [design_pattern_builder.py](design_pattern_builder.py): Applying the Builder design pattern.
 - [map_demo.py](map_demo.py): Demos of map.
-- [multithreading](multithreading_demo.py) vs [multiprocessing](multiprocessing_demo.py): An example for compare the speed with workloads. 
+- [multithreading.py](multithreading_demo.py) vs [multiprocessing](multiprocessing_demo.py): An example for compare the speed with workloads.
+- [async_demo.py](async_demo.py): asyncio & aiohttp demo.
+
 
 ## Regular Expressions
 - [is_phone_number.py](regex/is_phone_number.py): Return a boolean based on the validity of the phone number.
