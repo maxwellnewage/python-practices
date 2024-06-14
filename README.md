@@ -1,9 +1,12 @@
 # Python Practices
-This repository was created with the purpose of learning by practicing through different exercises outlined in each of the scripts. If you're interested in learning Python from scratch, I recommend you check out my courses:
-- [Web Development with Python and Django](https://www.udemy.com/course/desarrollo-de-sitios-web-con-python-3-con-django/?referralCode=A491B0944C634BFAA48C)
-- [Demo of the course](https://www.youtube.com/playlist?list=PLp7PPjAxisAICL8_g0lmC3thJvHW5Hbe3)
+This repository was created with the purpose of learning by practicing through different exercises outlined in each of the scripts. 
+If you're interested in learning Python from scratch, 
+I recommend you check out my courses (Spanish lang):
+- [Web Development with Python and Django](https://www.udemy.com/course/desarrollo-de-sitios-web-con-python-3-con-django/?referralCode=A491B0944C634BFAA48C) [[Demo](https://www.youtube.com/playlist?list=PLp7PPjAxisAICL8_g0lmC3thJvHW5Hbe3)]
+- [Python from Scratch](https://www.youtube.com/playlist?list=PLp7PPjAxisALk2zFlMx3DzT1MytOEGUmF)
 
-I also have a podcast where I talk about development, especially in Python. It's called "En Código," and you can find it on [Spotify](https://podcasters.spotify.com/pod/show/maxi-burgos9).
+I also have a podcast where I talk about development, especially in Python. 
+It's called "En Código," and you can find it on [Spotify](https://podcasters.spotify.com/pod/show/maxi-burgos9).
 
 ## Getting Started
 Create and activate the virtual environment:
