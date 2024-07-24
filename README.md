@@ -64,6 +64,7 @@ At the moment, all warnings have been resolved, but if new ones are detected, pl
 - [Nexo Earn Calculator](projects/nexo_earn_calculator/main.py): Nexo Earn Calculator.
 - [Pillow Image Converter](projects/image_converter): Convert any image to jpg with Pillow lib.
 - [Chat](projects/chat): Chat implemented with sockets.
+- [Complex Hello World](projects/complex_hello_world): Hello World, but in hell.
 
 ### Graphical User Interface (GUI)
 - [Speed Typing Test](projects/speed_typing_test.py): Detects how fast you type.
