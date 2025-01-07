@@ -1,3 +1,8 @@
-/venv/
+venv/
 **/__pycache__/
-/.idea/
+.idea/
+
+# Ruby & Jekyll
+Gemfile.lock
+_site/
+.jekyll-cache/
