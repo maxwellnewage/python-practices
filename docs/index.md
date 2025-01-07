@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Inicio"
+nav_order: 1
+---
+
 This repository was created with the purpose of learning by practicing through different exercises outlined in each of the scripts. 
 If you're interested in learning Python from scratch, 
 I recommend you check out my courses (Spanish lang):

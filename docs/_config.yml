@@ -3,6 +3,7 @@ theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 
 just_the_docs:
+  show_sidebar: true
   navigation:
     - title: "Inicio"
       path: "index.md"
