@@ -5,3 +5,4 @@ source: docs
 
 just_the_docs:
   show_sidebar: true
+  search_enabled: true
