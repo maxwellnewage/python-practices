@@ -4,6 +4,6 @@ venv/
 
 # Ruby & Jekyll
 Gemfile.lock
-_site/*
+_site/
 .jekyll-cache/
 .sass-cache/

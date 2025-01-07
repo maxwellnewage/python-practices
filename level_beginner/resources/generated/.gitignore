@@ -1,6 +1,0 @@
-# se excluyen archivos de texto
-*.txt
-*.bak
-*.dir
-*.dat
-*.json
