@@ -1,1 +1,16 @@
-theme: minima
+title: "Python Practices"
+theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+
+just_the_docs:
+  navigation:
+    - title: "Inicio"
+      path: "index.md"
+    - title: "Python Practices"
+      items:
+        - title: "Ejemplo 1"
+          path: "test_1.md"
+        - title: "Ejemplo 2"
+          path: "test_2.md"
+        - title: "Ejemplo 3"
+          path: "test_folder/test_1.md"
