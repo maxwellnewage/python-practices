@@ -1,6 +1,7 @@
 title: "Python Practices"
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
+baseurl: "/python-practices"
 source: docs
 
 just_the_docs:
