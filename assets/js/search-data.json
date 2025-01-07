@@ -2,84 +2,84 @@
     "doc": "Inicio",
     "title": "Getting Started",
     "content": "Create and activate the virtual environment: . python -m venv venv .\\venv\\Scripts\\activate . Install dependencies: . pip install -r requirements.txt . ",
-    "url": "/#getting-started",
+    "url": "/python-practices/#getting-started",
     
     "relUrl": "/#getting-started"
   },"1": {
     "doc": "Inicio",
     "title": "Flake8",
     "content": "Flake8 has been implemented in the project, which can be run using this command: . flake8 –exclude=venv . The virtual environment is excluded to focus only on the current project. Possible warnings reported by Flake8: .\\level_beginner\\filtrar_palabras.py:2:40: W291 trailing whitespace .\\level_advance\\regex\\is_phone_number.py:35:80: E501 line too long (86 &gt; 79 characters) .\\level_advance\\regex\\detect_start_end_str.py:28:44: W292 no newline at end of file . At the moment, all warnings have been resolved, but if new ones are detected, please open an issue. If you want to know more about it, I leave you an article where I talk about this linter. ",
-    "url": "/#flake8",
+    "url": "/python-practices/#flake8",
     
     "relUrl": "/#flake8"
   },"2": {
     "doc": "Inicio",
     "title": "Exercises",
     "content": ". | Beginner Level: Programming fundamentals such as data structures, flow control, logical and arithmetic operators, file manipulation, among others. | Intermediate Level: Applied principles of object-oriented programming. | Advanced Level: Exercises related to design patterns, testing, interoperability, among others. | HackerRank: Selected challenges from HackerRank. | . ",
-    "url": "/#exercises",
+    "url": "/python-practices/#exercises",
     
     "relUrl": "/#exercises"
   },"3": {
     "doc": "Inicio",
     "title": "Projects",
     "content": "Console Apps . | Censored Word Detector: Reads a sentence from the console and censors it. | Term Deposit: Defines how much can be earned monthly with a certain Annual Nominal Rate (TNA) and an amount. | Anime Finder: Anime searcher that connects to the Jikan API. | Tip Calculator App: Tip calculator. | Random Password Generator: Password generator. | Python File Explorer: File explorer. | Random Wikipedia Article: Returns a random Wikipedia article. | Instagram Photo Downloader - Deprecated: Downloads images posted on Instagram. (Deprecated) | Instagram Info Downloader: Downloads information posted on Instagram. | Excel Cleaner: Modifies an xlsx file without corrupting the style. | Calculator: Calculator that progressively advances in its versions as Python fundamentals are learned. | Email Sender: Sends emails from Gmail using token authentication. | Love Calculator: Calculates ideal love based on people’s names. | AWS S3 CRUD: Methods to create and delete buckets, as well as upload and download files. | Caesar Cipher: Caesar cipher with custom encode, decode, and shift. | Weather: Pandas &amp; CSV Lib implementation reading a weather dataset. | Nato Alphabet: Nato Alphabet. | OpenWeather App: OpenWeather App. | Stock Price Movement Manager: Stock Price Movement Manager. | Speed Calculator Decorator: Speed Calculator Decorator. | Nexo Earn Calculator: Nexo Earn Calculator. | Pillow Image Converter: Convert any image to jpg with Pillow lib. | Chat: Chat implemented with sockets. | Complex Hello World: Hello World, but in hell. | Emoji Generator: Emoji Generator. | . Graphical User Interface (GUI) . | Speed Typing Test: Detects how fast you type. | YouTube Video Downloader: Downloads videos from YouTube. | Desktop Notifier App: Application that generates notifications on the operating system. | Music Player: Music player. | Mile to Km Converter: Mile to Km Converter. | Pomodoro: Pomodoro App. | Name the states: Game to guess the states of the USA based on a dataset. | Etch a Sketch: Etch a Sketch. | Random Walk: Turtle random walk. | Dot Paint Generator: Dot Paint Generator on Turtle. | Flashy: Famous exercise to learn languages with cards. | ISS Position App: ISS Position App. | . Video Games . | Pong: Pong game on Turtle. | Turtle Race: Turtle Race. | Blackjack: Blackjack card game. | Hangman: Hangman game. | Rock, Paper, Scissors v2: Nicer version of the previous project. | Battle Rol Game System: Role-playing game where we can create a player and fight against a random enemy. | Snake Game: Snake game. | Dice Rolling Simulator: Dice rolling simulator. | Number Guessing: Guess the number I’m thinking of. | . APIs . | Pizza Delivery API: API developed in FastAPI based on a pizzeria management system. | . Websites . | Employee Manager: ABM-style Employee System (developed in Django). | Hero Game: CRUD for a role-playing game with Players, Enemies, Shop, and Weapons (developed in Django and Django-Rest-API). | YCombinator News Scrapper: YCombinator News Scrapper. | Wikipedia Finder: Searches for a Wikipedia article using Selenium. | LinkedIn Tracker: Profile information tracking based on search. | Age &amp; Gender Guess by Name: Guesses age and gender by name. | . ",
-    "url": "/#projects",
+    "url": "/python-practices/#projects",
     
     "relUrl": "/#projects"
   },"4": {
     "doc": "Inicio",
     "title": "Inspiration",
     "content": "Some exercises and projects are inspired (only in their brief, the solution is authored by me) by the following sources: . | pythondiario | Python Tutorial for Beginners | learnpython | upgrad | Udemy Course: 100 days of code | . ",
-    "url": "/#inspiration",
+    "url": "/python-practices/#inspiration",
     
     "relUrl": "/#inspiration"
   },"5": {
     "doc": "Inicio",
     "title": "Inicio",
     "content": "This repository was created with the purpose of learning by practicing through different exercises outlined in each of the scripts. If you’re interested in learning Python from scratch, I recommend you check out my courses (Spanish lang): . | Web Development with Python and Django [Demo] | Python from Scratch | . I also have a podcast where I talk about development, especially in Python. It’s called “En Código,” and you can find it on Spotify. ",
-    "url": "/",
+    "url": "/python-practices/",
     
     "relUrl": "/"
   },"6": {
     "doc": "Sub Ejemplo 1",
     "title": "Test 1",
     "content": " ",
-    "url": "/test_folder/test_1.html#test-1",
+    "url": "/python-practices/test_folder/test_1.html#test-1",
     
     "relUrl": "/test_folder/test_1.html#test-1"
   },"7": {
     "doc": "Sub Ejemplo 1",
     "title": "Sub Ejemplo 1",
     "content": " ",
-    "url": "/test_folder/test_1.html",
+    "url": "/python-practices/test_folder/test_1.html",
     
     "relUrl": "/test_folder/test_1.html"
   },"8": {
     "doc": "Ejemplo 1",
     "title": "Test 1",
     "content": "Este es el contenido del ejemplo 1. ",
-    "url": "/test_1.html#test-1",
+    "url": "/python-practices/test_1.html#test-1",
     
     "relUrl": "/test_1.html#test-1"
   },"9": {
     "doc": "Ejemplo 1",
     "title": "Ejemplo 1",
     "content": " ",
-    "url": "/test_1.html",
+    "url": "/python-practices/test_1.html",
     
     "relUrl": "/test_1.html"
   },"10": {
     "doc": "Ejemplo 2",
     "title": "Test 2",
     "content": " ",
-    "url": "/test_2.html#test-2",
+    "url": "/python-practices/test_2.html#test-2",
     
     "relUrl": "/test_2.html#test-2"
   },"11": {
     "doc": "Ejemplo 2",
     "title": "Ejemplo 2",
     "content": " ",
-    "url": "/test_2.html",
+    "url": "/python-practices/test_2.html",
     
     "relUrl": "/test_2.html"
   }
