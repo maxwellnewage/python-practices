@@ -16,13 +16,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v3
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.3.6
+        bundler-cache: true
 
-    - name: Build site
-      run: |
-        bundle install
-        bundle exec jekyll build --source docs --destination _site
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Build with Jekyll
+      run: bundle exec jekyll build --source docs --destination _site
 
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v2
